@@ -84,7 +84,7 @@ lmdmap -n G103bI301B \
 > [!CAUTION]
 > TOO BIG DISTORTION TO CORRECT
 
-#### Sequencing
+#### Sequences
 
 ```{sh}
 arch3d microsample -m data/microsample/MSEB0009.csv -d data/ -o test -u 'Webin-69627' -p '{password}'
