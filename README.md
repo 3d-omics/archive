@@ -3,7 +3,9 @@ Repository logging archiving of 3D'omics data.
 
 ## 2025-06-13
 
-### G121eI103A
+### MSEB0011
+
+#### G121eI103A
 
 ```{sh}
 lmdmap -n G121eI103A \
@@ -30,7 +32,7 @@ lmdmap -n G121eI103A \
 > [!NOTE]
 > No notes.
 
-### G121eI103B
+#### G121eI103B
 
 ```{sh}
 lmdmap -n G121eI103B \
@@ -43,7 +45,7 @@ lmdmap -n G121eI103B \
 > [!CAUTION]
 > COORDINATE LOGGING ERROR. PROBABLY MEMBRANE CONTROLS ENTERED AS POSITIVE
 
-### G103bI301A
+#### G103bI301A
 
 ```{sh}
 lmdmap -n G103bI301A \
@@ -69,7 +71,31 @@ lmdmap -n G103bI301A \
 > [!WARNING]
 > M301068, M301084 and M301085 look like membrane controls, but logged as positive. Pixel coordinates were removed.
 
-### G121eI102A
+#### G103bI301B
+
+```{sh}
+lmdmap -n G103bI301B \
+        -i image/overview/G103bI301_post.jpg \
+        -t image/overview/G103bI301B/G103bI301B.csv \
+        -o image/overview/G103bI301B/G103bI301B.jpg \
+        -m image/overview/G103bI301B/G103bI301B_marked.jpg
+```
+
+> [!CAUTION]
+> TOO BIG DISTORTION TO CORRECT
+
+#### Sequencing
+
+```{sh}
+arch3d microsample -m data/microsample/MSEB0009.csv -d data/ -o test -u 'Webin-69627' -p '{password}'
+```
+
+> [!NOTE]
+> No warnings
+
+### MSEB0009
+
+#### G121eI102A
 
 ```{sh}
 lmdmap -n G121eI102A \
@@ -89,13 +115,6 @@ lmdmap -n G121eI102A \
 > [!ERROR]
 > Section size is too large for framing in 1000x1000 pixels
 
-### MSEB0009
 
-```{sh}
-arch3d microsample -m data/microsample/MSEB0009.csv -d data/ -o test -u 'Webin-69627' -p '{password}'
-```
-
-> [!NOTE]
-> No warnings
 
 
