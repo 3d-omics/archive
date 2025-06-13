@@ -3,6 +3,34 @@ Repository logging archiving of 3D'omics data.
 
 ## 2025-06-13
 
+### G121eI103A
+
+```{sh}
+lmdmap -n G121eI103A \
+        -i image/overview/G121eI103A/G121eI103_post.jpg \
+        -t image/overview/G121eI103A/G121eI103A.csv \
+        -o image/overview/G121eI103A/G121eI103A.jpg \
+        -m image/overview/G121eI103A/G121eI103A_marked.jpg
+
+lmdmap -n G121eI103A \
+        -x -30 -y -2 -w 5 \
+        -i image/overview/G121eI103A/G121eI103_post.jpg \
+        -t image/overview/G121eI103A/G121eI103A.csv \
+        -o image/overview/G121eI103A/G121eI103A.jpg \
+        -m image/overview/G121eI103A/G121eI103A_marked.jpg
+
+lmdmap -n G121eI103A \
+        -x -30 -y -2 -w 5 \
+        -i image/overview/G121eI103A/G121eI103_pre.jpg \
+        -t image/overview/G121eI103A/G121eI103A.csv \
+        -o image/overview/G121eI103A/G121eI103A.jpg \
+        -m image/overview/G121eI103A/G121eI103A_marked.jpg
+```
+
+> [!NOTE]
+> No comments
+
+
 ### G121eI102A
 
 ```{sh}
