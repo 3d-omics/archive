@@ -30,6 +30,32 @@ lmdmap -n G121eI103A \
 > [!WARNING]
 > M300840 looks like a membrane control, but logged as positive. Pixel coordinates were removed.
 
+### G103bI301A
+
+```{sh}
+lmdmap -n G103bI301A \
+        -i image/overview/G103bI301A/G103bI301_post.jpg \
+        -t image/overview/G103bI301A/G103bI301A.csv \
+        -o image/overview/G103bI301A/G103bI301A.jpg \
+        -m image/overview/G103bI301A/G103bI301A_marked.jpg
+
+lmdmap -n G103bI301A \
+        -x -82 -w 5 \
+        -i image/overview/G103bI301A/G103bI301_post.jpg \
+        -t image/overview/G103bI301A/G103bI301A.csv \
+        -o image/overview/G103bI301A/G103bI301A.jpg \
+        -m image/overview/G103bI301A/G103bI301A_marked.jpg
+
+lmdmap -n G103bI301A \
+        -x -82 -w 5 \
+        -i image/overview/G103bI301A/G103bI301_pre.jpg \
+        -t image/overview/G103bI301A/G103bI301A.csv \
+        -o image/overview/G103bI301A/G103bI301A.jpg \
+        -m image/overview/G103bI301A/G103bI301A_marked.jpg
+```
+> [!WARNING]
+> M301068, M301084 and M301085 look like membrane controls, but logged as positive. Pixel coordinates were removed.
+
 ### G121eI102A
 
 ```{sh}
