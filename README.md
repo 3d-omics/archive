@@ -27,9 +27,8 @@ lmdmap -n G121eI103A \
         -m image/overview/G121eI103A/G121eI103A_marked.jpg
 ```
 
-> [!NOTE]
-> No comments
-
+> [!WARNING]
+> M300840 looks like a membrane control, but logged as positive. Pixel coordinates were removed.
 
 ### G121eI102A
 
