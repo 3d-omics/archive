@@ -13,15 +13,15 @@ lmdmap -n G121eI102A \
         -m image/overview/G121eI102A/G121eI102A_marked.jpg
 
 lmdmap -n G121eI102A \
-        -i G121eI102_pre.jpg \
-        -x -20 \
+        -x -60 -y -50 -w 50 -l 50 \
+        -i image/overview/G121eI102A/G121eI102_pre.jpg \
         -t image/overview/G121eI102A/G121eI102A.csv \
-        -o image/overview/G121eI102A/G121eI102A.jpg
+        -o image/overview/G121eI102A/G121eI102A.jpg \
         -m image/overview/G121eI102A/G121eI102A_marked.jpg
 ```
 
-> [!NOTE]
-> No warnings
+> [!ERROR]
+> Section size is too large for framing in 1000x1000 pixels
 
 ### MSEB0009
 
