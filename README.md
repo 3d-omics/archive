@@ -6,8 +6,18 @@ Repository logging archiving of 3D'omics data.
 ### G121eI102A
 
 ```{sh}
-lmdmap -n G121eI102A -i G121eI102A_pre.jpg -t G121eI102A.csv -o G121eI102A.jpg -m G121eI102A_marked.jpg
-lmdmap -n G121eI102A -i G121eI102A_pre.jpg -x -20 -t G121eI102A.csv -o G121eI102A.jpg -m G121eI102A_marked.jpg
+lmdmap -n G121eI102A \
+        -i image/overview/G121eI102A/G121eI102A_pre.jpg \
+        -t image/overview/G121eI102A/G121eI102A.csv \
+        -o image/overview/G121eI102A/G121eI102A.jpg \
+        -m image/overview/G121eI102A/G121eI102A_marked.jpg
+
+lmdmap -n G121eI102A \
+        -i G121eI102A_pre.jpg -\
+        x -20 \
+        -t image/overview/G121eI102A/G121eI102A.csv \
+        -o image/overview/G121eI102A/G121eI102A.jpg
+        -m image/overview/G121eI102A/G121eI102A_marked.jpg
 ```
 
 > [!NOTE]
