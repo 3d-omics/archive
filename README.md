@@ -40,10 +40,24 @@ lmdmap -n G121eI103B \
         -t image/overview/G121eI103B/G121eI103B.csv \
         -o image/overview/G121eI103B/G121eI103B.jpg \
         -m image/overview/G121eI103B/G121eI103B_marked.jpg
+
+lmdmap -n G121eI103B \
+        -x -40 -y -10  \
+        -i image/overview/G121eI103_post.jpg \
+        -t image/overview/G121eI103B/G121eI103B.csv \
+        -o image/overview/G121eI103B/G121eI103B.jpg \
+        -m image/overview/G121eI103B/G121eI103B_marked.jpg
+
+lmdmap -n G121eI103B \
+        -x -40 -y -10  \
+        -i image/overview/G121eI103_pre.jpg \
+        -t image/overview/G121eI103B/G121eI103B.csv \
+        -o image/overview/G121eI103B/G121eI103B.jpg \
+        -m image/overview/G121eI103B/G121eI103B_marked.jpg
 ```
 
 > [!CAUTION]
-> COORDINATE LOGGING ERROR. PROBABLY MEMBRANE CONTROLS ENTERED AS POSITIVE
+> Some cuts are not present in the PDF output.
 
 #### G103bI301A
 
@@ -79,10 +93,25 @@ lmdmap -n G103bI301B \
         -t image/overview/G103bI301B/G103bI301B.csv \
         -o image/overview/G103bI301B/G103bI301B.jpg \
         -m image/overview/G103bI301B/G103bI301B_marked.jpg
+
+lmdmap -n G103bI301B \
+        -x -105 -e \
+        -i image/overview/G103bI301_post.jpg \
+        -t image/overview/G103bI301B/G103bI301B.csv \
+        -o image/overview/G103bI301B/G103bI301B.jpg \
+        -m image/overview/G103bI301B/G103bI301B_marked.jpg
+
+lmdmap -n G103bI301B \
+        -x -105 -e \
+        -i image/overview/G103bI301_pre.jpg \
+        -t image/overview/G103bI301B/G103bI301B.csv \
+        -o image/overview/G103bI301B/G103bI301B.jpg \
+        -m image/overview/G103bI301B/G103bI301B_marked.jpg
 ```
 
 > [!CAUTION]
-> TOO BIG DISTORTION TO CORRECT
+> M301144 positive sample had no coordinates recorded
+> Some samples that looked negative membrane controls were removed
 
 #### Sequences
 
