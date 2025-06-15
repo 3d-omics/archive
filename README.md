@@ -118,7 +118,8 @@ lmdmap -n G103bI301B \
 ```{sh}
 screen -S MSEB0011
 conda activate arch3d
-arch3d microsample -m MSEB0011/MSEB0011.csv -d MSEB0011/input -o MSEB0011/output -u 'Webin-69627' -p '{password}'
+cd MSEB0011
+arch3d microsample -m MSEB0011.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
 > [!NOTE]
@@ -151,7 +152,8 @@ lmdmap -n G121eI102A \
 ```{sh}
 screen -S MSEB0009
 conda activate arch3d
-arch3d microsample -m MSEB0009/MSEB0009.csv -d MSEB0009/input -o MSEB0009/output -u 'Webin-69627' -p '{password}'
+cd MSEB0009
+arch3d microsample -m MSEB0009.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
 
