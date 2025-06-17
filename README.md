@@ -1,7 +1,36 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 2025-06-17
+
+### MSEB0012
+
 ## 2025-06-13
+
+```{sh}
+lmdmap -n G121eO302A \
+        -i image/overview/G121eO302_post.jpg \
+        -t image/overview/G121eO302A/G121eO302A.csv \
+        -o image/overview/G121eO302A/G121eO302A.jpg \
+        -m image/overview/G121eO302A/G121eO302A_marked.jpg
+
+lmdmap -n G121eO302A \
+        -s 1300 -x -75 \
+        -i image/overview/G121eO302_post.jpg \
+        -t image/overview/G121eO302A/G121eO302A.csv \
+        -o image/overview/G121eO302A/G121eO302A.jpg \
+        -m image/overview/G121eO302A/G121eO302A_marked.jpg
+
+lmdmap -n G121eO302A \
+        -s 1300 -x -90 -a \
+        -i image/overview/G121eO302_pre.jpg \
+        -t image/overview/G121eO302A/G121eO302A.csv \
+        -o image/overview/G121eO302A/G121eO302A.jpg \
+        -m image/overview/G121eO302A/G121eO302A_marked.jpg
+```
+
+> [!WARNING]
+> Pre and post images are a bit shifted, so x-axis correction was updated. 
 
 ### MSEB0011
 
