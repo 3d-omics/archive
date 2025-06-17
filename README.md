@@ -30,7 +30,35 @@ lmdmap -n G121eO302A \
 ```
 
 > [!WARNING]
-> Pre and post images are a bit shifted, so x-axis correction was updated. 
+> Pre and post images are a bit shifted, so x-axis correction was updated.
+
+#### G121eO302B
+
+```{sh}
+lmdmap -n G121eO302B \
+        -i image/overview/G121eO302_post.jpg \
+        -t image/overview/G121eO302B/G121eO302B.csv \
+        -o image/overview/G121eO302B/G121eO302B.jpg \
+        -m image/overview/G121eO302B/G121eO302B_marked.jpg
+
+lmdmap -n G121eO302B \
+        -s 1500 -x -210 -y 1150 \
+        -i image/overview/G121eO302_post.jpg \
+        -t image/overview/G121eO302B/G121eO302B.csv \
+        -o image/overview/G121eO302B/G121eO302B.jpg \
+        -m image/overview/G121eO302B/G121eO302B_marked.jpg
+
+lmdmap -n G121eO302B \
+        -s 1500 -x -260 -y 1150 -a \
+        -i image/overview/G121eO302_pre.jpg \
+        -t image/overview/G121eO302B/G121eO302B.csv \
+        -o image/overview/G121eO302B/G121eO302B.jpg \
+        -m image/overview/G121eO302B/G121eO302B_marked.jpg
+```
+
+> [!WARNING]
+> Pre and post images are a bit shifted, so x-axis correction was updated.
+> No original PDF created from cutting.
 
 #### G103bO201A
 
@@ -82,6 +110,36 @@ lmdmap -n G103bO201B \
         -o image/overview/G103bO201B/G103bO201B.jpg \
         -m image/overview/G103bO201B/G103bO201B_marked.jpg
 ```
+
+> [!NOTE]
+> No notes.
+
+#### G103bO201C
+
+```{sh}
+lmdmap -n G103bO201C \
+        -i image/overview/G103bO201_post.jpg \
+        -t image/overview/G103bO201C/G103bO201C.csv \
+        -o image/overview/G103bO201C/G103bO201C.jpg \
+        -m image/overview/G103bO201C/G103bO201C_marked.jpg
+
+lmdmap -n G103bO201C \
+        -x -120 -y 40 -w 20 -l 20 -c -e -d M301277,M301270,M301278 \
+        -i image/overview/G103bO201_post.jpg \
+        -t image/overview/G103bO201C/G103bO201C.csv \
+        -o image/overview/G103bO201C/G103bO201C.jpg \
+        -m image/overview/G103bO201C/G103bO201C_marked.jpg
+
+lmdmap -n G103bO201C \
+        -x -120 -y 40 -w 20 -l 20 -e -d M301277,M301270,M301278 -a \
+        -i image/overview/G103bO201_pre.jpg \
+        -t image/overview/G103bO201C/G103bO201C.csv \
+        -o image/overview/G103bO201C/G103bO201C.jpg \
+        -m image/overview/G103bO201C/G103bO201C_marked.jpg
+```
+
+> [!NOTE]
+> Discarded samples were membrane controls.
 
 ## 2025-06-13
 
