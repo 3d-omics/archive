@@ -5,7 +5,7 @@ Repository logging archiving of 3D'omics data.
 
 ### MSEB0012
 
-## 2025-06-13
+#### G121eO302A
 
 ```{sh}
 lmdmap -n G121eO302A \
@@ -31,6 +31,46 @@ lmdmap -n G121eO302A \
 
 > [!WARNING]
 > Pre and post images are a bit shifted, so x-axis correction was updated. 
+
+#### G103bO201A
+
+```{sh}
+lmdmap -n G103bO201A \
+        -i image/overview/G103bO201_post.jpg \
+        -t image/overview/G103bO201A/G103bO201A.csv \
+        -o image/overview/G103bO201A/G103bO201A.jpg \
+        -m image/overview/G103bO201A/G103bO201A_marked.jpg
+
+lmdmap -n G103bO201A \
+        -s 750 -x -130 -y 10 \
+        -i image/overview/G103bO201_post.jpg \
+        -t image/overview/G103bO201A/G103bO201A.csv \
+        -o image/overview/G103bO201A/G103bO201A.jpg \
+        -m image/overview/G103bO201A/G103bO201A_marked.jpg
+
+lmdmap -n G103bO201A \
+        -s 750 -x -130 -y 10 -a \
+        -i image/overview/G103bO201_pre.jpg \
+        -t image/overview/G103bO201A/G103bO201A.csv \
+        -o image/overview/G103bO201A/G103bO201A.jpg \
+        -m image/overview/G103bO201A/G103bO201A_marked.jpg
+```
+
+> [!NOTE]
+> No notes.
+
+#### G103bO201B
+
+```{sh}
+lmdmap -n G103bO201A \
+        -i image/overview/G103bO201_post.jpg \
+        -t image/overview/G103bO201B/G103bO201B.csv \
+        -o image/overview/G103bO201B/G103bO201B.jpg \
+        -m image/overview/G103bO201B/G103bO201B_marked.jpg
+
+```
+
+## 2025-06-13
 
 ### MSEB0011
 
