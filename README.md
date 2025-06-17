@@ -140,7 +140,27 @@ lmdmap -n G103bO202B \
 
 #### G103bO202C
 
-TO BE DONE
+```{sh}
+lmdmap -n G103bO202C \
+        -i image/overview/G103bO202_post.jpg \
+        -t image/overview/G103bO202C/G103bO202C.csv \
+        -o image/overview/G103bO202C/G103bO202C.jpg \
+        -m image/overview/G103bO202C/G103bO202C_marked.jpg
+
+lmdmap -n G103bO202C \
+        -s 750 -x -100 \
+        -i image/overview/G103bO202_post.jpg \
+        -t image/overview/G103bO202C/G103bO202C.csv \
+        -o image/overview/G103bO202C/G103bO202C.jpg \
+        -m image/overview/G103bO202C/G103bO202C_marked.jpg
+
+lmdmap -n G103bO202C \
+        -s 750 -x -100 -a \
+        -i image/overview/G103bO202_pre.jpg \
+        -t image/overview/G103bO202C/G103bO202C.csv \
+        -o image/overview/G103bO202C/G103bO202C.jpg \
+        -m image/overview/G103bO202C/G103bO202C_marked.jpg
+```
 
 #### G103bO201B
 
