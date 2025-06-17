@@ -62,12 +62,25 @@ lmdmap -n G103bO201A \
 #### G103bO201B
 
 ```{sh}
-lmdmap -n G103bO201A \
+lmdmap -n G103bO201B \
         -i image/overview/G103bO201_post.jpg \
         -t image/overview/G103bO201B/G103bO201B.csv \
         -o image/overview/G103bO201B/G103bO201B.jpg \
         -m image/overview/G103bO201B/G103bO201B_marked.jpg
 
+lmdmap -n G103bO201B \
+        -s 750 -x -110 -y 10 \
+        -i image/overview/G103bO201_post.jpg \
+        -t image/overview/G103bO201B/G103bO201B.csv \
+        -o image/overview/G103bO201B/G103bO201B.jpg \
+        -m image/overview/G103bO201B/G103bO201B_marked.jpg
+
+lmdmap -n G103bO201B \
+        -s 750 -x -110 -y 10 -a \
+        -i image/overview/G103bO201_pre.jpg \
+        -t image/overview/G103bO201B/G103bO201B.csv \
+        -o image/overview/G103bO201B/G103bO201B.jpg \
+        -m image/overview/G103bO201B/G103bO201B_marked.jpg
 ```
 
 ## 2025-06-13
