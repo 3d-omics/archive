@@ -5,16 +5,15 @@ Repository logging archiving of 3D'omics data.
 
 ### MSEB0014
 
+#### G121eI104A
+
+> [!WARNING]
+> All spatial information is incorrect. No spatial data was recorded.
 
 #### G121eI104B
 
-```{sh}
-lmdmap -n G121eI104B \
-        -i image/overview/G121eI104_post2.jpg \
-        -t image/overview/G121eI104B/G121eI104B.csv \
-        -o image/overview/G121eI104B/G121eI104B.jpg \
-        -m image/overview/G121eI104B/G121eI104B_marked.jpg
-```
+> [!WARNING]
+> All spatial information is incorrect. No spatial data was recorded.
 
 #### G121eI104C
 
