@@ -1,6 +1,46 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 2025-06-23
+
+### MSEB0014
+
+
+#### G121eI104B
+
+```{sh}
+lmdmap -n G121eI104B \
+        -i image/overview/G121eI104_post2.jpg \
+        -t image/overview/G121eI104B/G121eI104B.csv \
+        -o image/overview/G121eI104B/G121eI104B.jpg \
+        -m image/overview/G121eI104B/G121eI104B_marked.jpg
+```
+
+#### G121eI104C
+
+```{sh}
+lmdmap -n G121eI104C \
+        -i image/overview/G121eI104_post2.jpg \
+        -t image/overview/G121eI104C/G121eI104C.csv \
+        -o image/overview/G121eI104C/G121eI104C.jpg \
+        -m image/overview/G121eI104C/G121eI104C_marked.jpg
+
+lmdmap -n G121eI104C \
+        -s 900 -x -45 -w 5 \
+        -i image/overview/G121eI104_post2.jpg \
+        -t image/overview/G121eI104C/G121eI104C.csv \
+        -o image/overview/G121eI104C/G121eI104C.jpg \
+        -m image/overview/G121eI104C/G121eI104C_marked.jpg
+
+lmdmap -n G121eI104C \
+        -s 900 -x -35 -w 5 -a \
+        -i image/overview/G121eI104_pre.jpg \
+        -t image/overview/G121eI104C/G121eI104C.csv \
+        -o image/overview/G121eI104C/G121eI104C.jpg \
+        -m image/overview/G121eI104C/G121eI104C_marked.jpg
+```
+
+
 ## 2025-06-17
 
 ### MSEB0012
