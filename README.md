@@ -40,6 +40,8 @@ lmdmap -n G121eI104C \
         -m image/overview/G121eI104C/G121eI104C_marked.jpg
 ```
 
+> [!NOTE]
+> All good!
 
 ## 2025-06-17
 
