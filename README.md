@@ -379,6 +379,27 @@ lmdmap -n G081bI105A \
         -m image/overview/G081bI105A/G081bI105A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G081bI105A \
+        -x -40 -w 4 -d M302650 \
+        -i image/overview/G081bI105_post.jpg \
+        -t image/overview/G081bI105A/G081bI105A.csv \
+        -o image/overview/G081bI105A/G081bI105A.jpg \
+        -m image/overview/G081bI105A/G081bI105A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G081bI105A \
+        -x -40 -w 4 -d M302650 -a \
+        -i image/overview/G081bI105_pre.jpg \
+        -t image/overview/G081bI105A/G081bI105A.csv \
+        -o image/overview/G081bI105A/G081bI105A.jpg \
+        -m image/overview/G081bI105A/G081bI105A_marked.jpg
+```
+
+> [!WARNING]
+> M302650 is a membrane control
+
 #### G081bI105B
 
 ```{sh}
