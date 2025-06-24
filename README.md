@@ -161,6 +161,27 @@ lmdmap -n G007bI105B \
         -m image/overview/G007bI105B/G007bI105B_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G007bI105B \
+        -s 800 -w 5 -l 2 -x -10 -c -d M303192,M303163,M303172 \
+        -i image/overview/G007bI105_post.jpg \
+        -t image/overview/G007bI105B/G007bI105B.csv \
+        -o image/overview/G007bI105B/G007bI105B.jpg \
+        -m image/overview/G007bI105B/G007bI105B_marked.jpg
+```
+
+> [!WARNING]
+> M303192, M303163 and M303172 are membrane controls
+
+```{sh}
+lmdmap -n G007bI105B \
+        -s 800 -w 5 -l 2 -x -10 -d M303192,M303163,M303172 -a \
+        -i image/overview/G007bI105_pre.jpg \
+        -t image/overview/G007bI105B/G007bI105B.csv \
+        -o image/overview/G007bI105B/G007bI105B.jpg \
+        -m image/overview/G007bI105B/G007bI105B_marked.jpg
+```
+
 #### G019eI105A
 
 ```{sh}
