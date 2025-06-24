@@ -64,11 +64,35 @@ lmdmap -n G005bI205B \
         -m image/overview/G005bI205B/G005bI205B_marked.jpg
 ```
 
+> [!NOTE]
+> All good!
+
 #### G006bI203A
 
 ```{sh}
 lmdmap -n G006bI203A \
         -i image/overview/G006bI203_post.jpg \
+        -t image/overview/G006bI203A/G006bI203A.csv \
+        -o image/overview/G006bI203A/G006bI203A.jpg \
+        -m image/overview/G006bI203A/G006bI203A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G006bI203A \
+        -w 10 -x -10 -c -d M303014 \
+        -i image/overview/G006bI203_post.jpg \
+        -t image/overview/G006bI203A/G006bI203A.csv \
+        -o image/overview/G006bI203A/G006bI203A.jpg \
+        -m image/overview/G006bI203A/G006bI203A_marked.jpg
+```
+
+> [!WARNING]
+> M303014 is a membrane control
+
+```{sh}
+lmdmap -n G006bI203A \
+        -w 10 -x -10 -d M303014 -a \
+        -i image/overview/G006bI203_pre.jpg \
         -t image/overview/G006bI203A/G006bI203A.csv \
         -o image/overview/G006bI203A/G006bI203A.jpg \
         -m image/overview/G006bI203A/G006bI203A_marked.jpg
@@ -84,6 +108,27 @@ lmdmap -n G006bI203B \
         -m image/overview/G006bI203B/G006bI203B_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G006bI203B \
+        -s 1100 -w 8 -x -20 -d M303110,M303111 -c \
+        -i image/overview/G006bI203_post.jpg \
+        -t image/overview/G006bI203B/G006bI203B.csv \
+        -o image/overview/G006bI203B/G006bI203B.jpg \
+        -m image/overview/G006bI203B/G006bI203B_marked.jpg
+```
+
+> [!WARNING]
+> M303110 and M303111 are membrane controls
+
+```{sh}
+lmdmap -n G006bI203B \
+        -s 1100 -w 8 -x -20 -d M303110,M303111 -a \
+        -i image/overview/G006bI203_pre.jpg \
+        -t image/overview/G006bI203B/G006bI203B.csv \
+        -o image/overview/G006bI203B/G006bI203B.jpg \
+        -m image/overview/G006bI203B/G006bI203B_marked.jpg
+```
+
 #### G007bI105A
 
 ```{sh}
@@ -93,6 +138,18 @@ lmdmap -n G007bI105A \
         -o image/overview/G007bI105A/G007bI105A.jpg \
         -m image/overview/G007bI105A/G007bI105A_marked.jpg
 ```
+
+```{sh}
+lmdmap -n G007bI105A \
+        -a \
+        -i image/overview/G007bI105_pre.jpg \
+        -t image/overview/G007bI105A/G007bI105A.csv \
+        -o image/overview/G007bI105A/G007bI105A.jpg \
+        -m image/overview/G007bI105A/G007bI105A_marked.jpg
+```
+
+> [!NOTE]
+> All good!
 
 #### G007bI105B
 
