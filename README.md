@@ -254,6 +254,27 @@ lmdmap -n G020eI205A \
         -m image/overview/G020eI205A/G020eI205A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G020eI205A \
+        -x -35 -w 4 \
+        -i image/overview/G020eI205_post.jpg \
+        -t image/overview/G020eI205A/G020eI205A.csv \
+        -o image/overview/G020eI205A/G020eI205A.jpg \
+        -m image/overview/G020eI205A/G020eI205A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G020eI205A \
+        -x -35 -w 4 -a \
+        -i image/overview/G020eI205_pre.jpg \
+        -t image/overview/G020eI205A/G020eI205A.csv \
+        -o image/overview/G020eI205A/G020eI205A.jpg \
+        -m image/overview/G020eI205A/G020eI205A_marked.jpg
+```
+
+> [!NOTE]
+> All good!
+
 #### G020eI205B
 
 ```{sh}
