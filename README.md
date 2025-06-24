@@ -105,6 +105,69 @@ lmdmap -n G020eI205B \
         -m image/overview/G020eI205B/G020eI205B_marked.jpg
 ```
 
+#### G021eI105A
+
+```{sh}
+lmdmap -n G021eI105A \
+        -i image/overview/G021eI105_post.jpg \
+        -t image/overview/G021eI105A/G021eI105A.csv \
+        -o image/overview/G021eI105A/G021eI105A.jpg \
+        -m image/overview/G021eI105A/G021eI105A_marked.jpg
+```
+
+#### G021eI105B
+
+```{sh}
+lmdmap -n G021eI105B \
+        -i image/overview/G021eI105_post.jpg \
+        -t image/overview/G021eI105B/G021eI105B.csv \
+        -o image/overview/G021eI105B/G021eI105B.jpg \
+        -m image/overview/G021eI105B/G021eI105B_marked.jpg
+```
+
+#### G081bI105A
+
+```{sh}
+lmdmap -n G081bI105A \
+        -i image/overview/G081bI105_post.jpg \
+        -t image/overview/G081bI105A/G081bI105A.csv \
+        -o image/overview/G081bI105A/G081bI105A.jpg \
+        -m image/overview/G081bI105A/G081bI105A_marked.jpg
+```
+
+#### G081bI105B
+
+```{sh}
+lmdmap -n G081bI105B \
+        -i image/overview/G081bI105_post.jpg \
+        -t image/overview/G081bI105B/G081bI105B.csv \
+        -o image/overview/G081bI105B/G081bI105B.jpg \
+        -m image/overview/G081bI105B/G081bI105B_marked.jpg
+```
+
+> [!WARNING]
+> Seems to be quite off
+
+#### G082bI105A
+
+```{sh}
+lmdmap -n G082bI105A \
+        -i image/overview/G082bI105_post.jpg \
+        -t image/overview/G082bI105A/G082bI105A.csv \
+        -o image/overview/G082bI105A/G082bI105A.jpg \
+        -m image/overview/G082bI105A/G082bI105A_marked.jpg
+```
+
+#### G082bI105B
+
+```{sh}
+lmdmap -n G082bI105B \
+        -i image/overview/G082bI105_post.jpg \
+        -t image/overview/G082bI105B/G082bI105B.csv \
+        -o image/overview/G082bI105B/G082bI105B.jpg \
+        -m image/overview/G082bI105B/G082bI105B_marked.jpg
+```
+
 ## 2025-06-23
 
 ### MSEB0014
