@@ -1,5 +1,69 @@
-# 3D'omics archive
+![image](https://github.com/user-attachments/assets/97e4cc0e-fe1c-4c28-84e4-f4c46c1b0d38)# 3D'omics archive
 Repository logging archiving of 3D'omics data.
+
+## 2025-06-24
+
+### MSEB0016-28
+
+#### G005bI205A
+
+```{sh}
+lmdmap -n G005bI205A \
+        -i image/overview/G005bI205_post.jpg \
+        -t image/overview/G005bI205A/G005bI205A.csv \
+        -o image/overview/G005bI205A/G005bI205A.jpg \
+        -m image/overview/G005bI205A/G005bI205A_marked.jpg
+```
+
+#### G005bI205B
+
+```{sh}
+lmdmap -n G005bI205B \
+        -i image/overview/G005bI205_post.jpg \
+        -t image/overview/G005bI205B/G005bI205B.csv \
+        -o image/overview/G005bI205B/G005bI205B.jpg \
+        -m image/overview/G005bI205B/G005bI205B_marked.jpg
+```
+
+#### G006bI203A
+
+```{sh}
+lmdmap -n G006bI203A \
+        -i image/overview/G006bI203_post.jpg \
+        -t image/overview/G006bI203A/G006bI203A.csv \
+        -o image/overview/G006bI203A/G006bI203A.jpg \
+        -m image/overview/G006bI203A/G006bI203A_marked.jpg
+```
+
+#### G006bI203B
+
+```{sh}
+lmdmap -n G006bI203B \
+        -i image/overview/G006bI203_post.jpg \
+        -t image/overview/G006bI203B/G006bI203B.csv \
+        -o image/overview/G006bI203B/G006bI203B.jpg \
+        -m image/overview/G006bI203B/G006bI203B_marked.jpg
+```
+
+#### G007bI105A
+
+```{sh}
+lmdmap -n G007bI105A \
+        -i image/overview/G007bI105_post.jpg \
+        -t image/overview/G007bI105A/G007bI105A.csv \
+        -o image/overview/G007bI105A/G007bI105A.jpg \
+        -m image/overview/G007bI105A/G007bI105A_marked.jpg
+```
+
+#### G007bI105B
+
+```{sh}
+lmdmap -n G007bI105B \
+        -i image/overview/G007bI105_post.jpg \
+        -t image/overview/G007bI105B/G007bI105B.csv \
+        -o image/overview/G007bI105B/G007bI105B.jpg \
+        -m image/overview/G007bI105B/G007bI105B_marked.jpg
+```
 
 ## 2025-06-23
 
