@@ -15,11 +15,50 @@ lmdmap -n G005bI205A \
         -m image/overview/G005bI205A/G005bI205A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G005bI205A \
+        -s 800 -x -50 -d M302895,M302896,M302897 \
+        -i image/overview/G005bI205_post.jpg \
+        -t image/overview/G005bI205A/G005bI205A.csv \
+        -o image/overview/G005bI205A/G005bI205A.jpg \
+        -m image/overview/G005bI205A/G005bI205A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G005bI205A \
+        -s 800 -x -50 -d M302895,M302896,M302897 -a \
+        -i image/overview/G005bI205_pre.jpg \
+        -t image/overview/G005bI205A/G005bI205A.csv \
+        -o image/overview/G005bI205A/G005bI205A.jpg \
+        -m image/overview/G005bI205A/G005bI205A_marked.jpg
+```
+
+> [!WARNING]
+> M302895, M302896, M302897 are membrane controls
+
 #### G005bI205B
 
 ```{sh}
 lmdmap -n G005bI205B \
         -i image/overview/G005bI205_post.jpg \
+        -t image/overview/G005bI205B/G005bI205B.csv \
+        -o image/overview/G005bI205B/G005bI205B.jpg \
+        -m image/overview/G005bI205B/G005bI205B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G005bI205B \
+        -s 800 -x -15 -w 10 \
+        -i image/overview/G005bI205_post.jpg \
+        -t image/overview/G005bI205B/G005bI205B.csv \
+        -o image/overview/G005bI205B/G005bI205B.jpg \
+        -m image/overview/G005bI205B/G005bI205B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G005bI205B \
+        -s 800 -x -15 -w 10 -a \
+        -i image/overview/G005bI205_pre.jpg \
         -t image/overview/G005bI205B/G005bI205B.csv \
         -o image/overview/G005bI205B/G005bI205B.jpg \
         -m image/overview/G005bI205B/G005bI205B_marked.jpg
