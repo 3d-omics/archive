@@ -3,6 +3,32 @@ Repository logging archiving of 3D'omics data.
 
 ## 2025-06-24
 
+### MSEB0010
+
+#### G121eO301A
+
+```{sh}
+lmdmap -n G121eO301A \
+        -i image/overview/G121eO301_post.jpg \
+        -t image/overview/G121eO301A/G121eO301A.csv \
+        -o image/overview/G121eO301A/G121eO301A.jpg \
+        -m image/overview/G121eO301A/G121eO301A_marked.jpg
+
+lmdmap -n G121eO301A \
+        -s 1400 -x -30 -w 5 \
+        -i image/overview/G121eO301_post.jpg \
+        -t image/overview/G121eO301A/G121eO301A.csv \
+        -o image/overview/G121eO301A/G121eO301A.jpg \
+        -m image/overview/G121eO301A/G121eO301A_marked.jpg
+
+lmdmap -n G121eO301A \
+        -s 1400 -x -30 -w 5 -a \
+        -i image/overview/G121eO301_pre.jpg \
+        -t image/overview/G121eO301A/G121eO301A.csv \
+        -o image/overview/G121eO301A/G121eO301A.jpg \
+        -m image/overview/G121eO301A/G121eO301A_marked.jpg
+```
+
 ### MSEB0016-28
 
 #### G005bI205A
