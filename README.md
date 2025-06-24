@@ -65,6 +65,46 @@ lmdmap -n G007bI105B \
         -m image/overview/G007bI105B/G007bI105B_marked.jpg
 ```
 
+#### G019eI105A
+
+```{sh}
+lmdmap -n G019eI105A \
+        -i image/overview/G019eI105_post.jpg \
+        -t image/overview/G019eI105A/G019eI105A.csv \
+        -o image/overview/G019eI105A/G019eI105A.jpg \
+        -m image/overview/G019eI105A/G019eI105A_marked.jpg
+```
+
+#### G019eI105B
+
+```{sh}
+lmdmap -n G019eI105B \
+        -i image/overview/G019eI105_post.jpg \
+        -t image/overview/G019eI105B/G019eI105B.csv \
+        -o image/overview/G019eI105B/G019eI105B.jpg \
+        -m image/overview/G019eI105B/G019eI105B_marked.jpg
+```
+
+#### G020eI205A
+
+```{sh}
+lmdmap -n G020eI205A \
+        -i image/overview/G020eI205_post.jpg \
+        -t image/overview/G020eI205A/G020eI205A.csv \
+        -o image/overview/G020eI205A/G020eI205A.jpg \
+        -m image/overview/G020eI205A/G020eI205A_marked.jpg
+```
+
+#### G020eI205B
+
+```{sh}
+lmdmap -n G020eI205B \
+        -i image/overview/G020eI205_post.jpg \
+        -t image/overview/G020eI205B/G020eI205B.csv \
+        -o image/overview/G020eI205B/G020eI205B.jpg \
+        -m image/overview/G020eI205B/G020eI205B_marked.jpg
+```
+
 ## 2025-06-23
 
 ### MSEB0014
