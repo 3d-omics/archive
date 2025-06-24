@@ -86,9 +86,6 @@ lmdmap -n G006bI203A \
         -m image/overview/G006bI203A/G006bI203A_marked.jpg
 ```
 
-> [!WARNING]
-> M303014 is a membrane control
-
 ```{sh}
 lmdmap -n G006bI203A \
         -w 10 -x -10 -d M303014 -a \
@@ -97,6 +94,9 @@ lmdmap -n G006bI203A \
         -o image/overview/G006bI203A/G006bI203A.jpg \
         -m image/overview/G006bI203A/G006bI203A_marked.jpg
 ```
+
+> [!WARNING]
+> M303014 is a membrane control
 
 #### G006bI203B
 
@@ -117,9 +117,6 @@ lmdmap -n G006bI203B \
         -m image/overview/G006bI203B/G006bI203B_marked.jpg
 ```
 
-> [!WARNING]
-> M303110 and M303111 are membrane controls
-
 ```{sh}
 lmdmap -n G006bI203B \
         -s 1100 -w 8 -x -20 -d M303110,M303111 -a \
@@ -128,6 +125,9 @@ lmdmap -n G006bI203B \
         -o image/overview/G006bI203B/G006bI203B.jpg \
         -m image/overview/G006bI203B/G006bI203B_marked.jpg
 ```
+
+> [!WARNING]
+> M303110 and M303111 are membrane controls
 
 #### G007bI105A
 
@@ -170,9 +170,6 @@ lmdmap -n G007bI105B \
         -m image/overview/G007bI105B/G007bI105B_marked.jpg
 ```
 
-> [!WARNING]
-> M303192, M303163 and M303172 are membrane controls
-
 ```{sh}
 lmdmap -n G007bI105B \
         -s 800 -w 5 -l 2 -x -10 -d M303192,M303163,M303172 -a \
@@ -181,6 +178,9 @@ lmdmap -n G007bI105B \
         -o image/overview/G007bI105B/G007bI105B.jpg \
         -m image/overview/G007bI105B/G007bI105B_marked.jpg
 ```
+
+> [!WARNING]
+> M303192, M303163 and M303172 are membrane controls
 
 #### G019eI105A
 
@@ -222,6 +222,27 @@ lmdmap -n G019eI105B \
         -o image/overview/G019eI105B/G019eI105B.jpg \
         -m image/overview/G019eI105B/G019eI105B_marked.jpg
 ```
+
+```{sh}
+lmdmap -n G019eI105B \
+        -s 1500 -x -90 -w 3 -c -d M302218 \
+        -i image/overview/G019eI105_post.jpg \
+        -t image/overview/G019eI105B/G019eI105B.csv \
+        -o image/overview/G019eI105B/G019eI105B.jpg \
+        -m image/overview/G019eI105B/G019eI105B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G019eI105B \
+        -s 1500 -x -90 -w 3 -d M302218 -a \
+        -i image/overview/G019eI105_pre.jpg \
+        -t image/overview/G019eI105B/G019eI105B.csv \
+        -o image/overview/G019eI105B/G019eI105B.jpg \
+        -m image/overview/G019eI105B/G019eI105B_marked.jpg
+```
+
+> [!WARNING]
+> M302218 is a membrane control
 
 #### G020eI205A
 
