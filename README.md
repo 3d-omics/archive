@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/97e4cc0e-fe1c-4c28-84e4-f4c46c1b0d38)# 3D'omics archive
+# 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
 ## 2025-06-24
@@ -166,6 +166,86 @@ lmdmap -n G082bI105B \
         -t image/overview/G082bI105B/G082bI105B.csv \
         -o image/overview/G082bI105B/G082bI105B.jpg \
         -m image/overview/G082bI105B/G082bI105B_marked.jpg
+```
+
+#### G084bI105A
+
+```{sh}
+lmdmap -n G084bI105A \
+        -i image/overview/G084bI105_post.jpg \
+        -t image/overview/G084bI105A/G084bI105A.csv \
+        -o image/overview/G084bI105A/G084bI105A.jpg \
+        -m image/overview/G084bI105A/G084bI105A_marked.jpg
+```
+
+#### G084bI105B
+
+```{sh}
+lmdmap -n G084bI105B \
+        -i image/overview/G084bI105_post.jpg \
+        -t image/overview/G084bI105B/G084bI105B.csv \
+        -o image/overview/G084bI105B/G084bI105B.jpg \
+        -m image/overview/G084bI105B/G084bI105B_marked.jpg
+```
+
+#### G095eI108A
+
+```{sh}
+lmdmap -n G095eI108A \
+        -i image/overview/G095eI108_post.jpg \
+        -t image/overview/G095eI108A/G095eI108A.csv \
+        -o image/overview/G095eI108A/G095eI108A.jpg \
+        -m image/overview/G095eI108A/G095eI108A_marked.jpg
+```
+
+#### G095eI108B
+
+```{sh}
+lmdmap -n G095eI108B \
+        -i image/overview/G095eI108_post.jpg \
+        -t image/overview/G095eI108B/G095eI108B.csv \
+        -o image/overview/G095eI108B/G095eI108B.jpg \
+        -m image/overview/G095eI108B/G095eI108B_marked.jpg
+```
+
+#### G096eI107A
+
+```{sh}
+lmdmap -n G096eI107A \
+        -i image/overview/G096eI107_post.jpg \
+        -t image/overview/G096eI107A/G096eI107A.csv \
+        -o image/overview/G096eI107A/G096eI107A.jpg \
+        -m image/overview/G096eI107A/G096eI107A_marked.jpg
+```
+
+#### G096eI107B
+
+```{sh}
+lmdmap -n G096eI107B \
+        -i image/overview/G096eI107_post.jpg \
+        -t image/overview/G096eI107B/G096eI107B.csv \
+        -o image/overview/G096eI107B/G096eI107B.jpg \
+        -m image/overview/G096eI107B/G096eI107B_marked.jpg
+```
+
+#### G097eI107A
+
+```{sh}
+lmdmap -n G097eI107A \
+        -i image/overview/G097eI107_post.jpg \
+        -t image/overview/G097eI107A/G097eI107A.csv \
+        -o image/overview/G097eI107A/G097eI107A.jpg \
+        -m image/overview/G097eI107A/G097eI107A_marked.jpg
+```
+
+#### G097eI107B
+
+```{sh}
+lmdmap -n G097eI107B \
+        -i image/overview/G097eI107_post.jpg \
+        -t image/overview/G097eI107B/G097eI107B.csv \
+        -o image/overview/G097eI107B/G097eI107B.jpg \
+        -m image/overview/G097eI107B/G097eI107B_marked.jpg
 ```
 
 ## 2025-06-23
