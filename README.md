@@ -394,7 +394,6 @@ lmdmap -n G021eI105B \
 > [!NOTE]
 > All good!
 
-
 #### G081bI105A
 
 ```{sh}
@@ -449,6 +448,27 @@ lmdmap -n G082bI105A \
         -m image/overview/G082bI105A/G082bI105A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G082bI105A \
+        -x -35 -w 5 \
+        -i image/overview/G082bI105_post.jpg \
+        -t image/overview/G082bI105A/G082bI105A.csv \
+        -o image/overview/G082bI105A/G082bI105A.jpg \
+        -m image/overview/G082bI105A/G082bI105A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G082bI105A \
+        -x -35 -w 5 -a \
+        -i image/overview/G082bI105_pre.jpg \
+        -t image/overview/G082bI105A/G082bI105A.csv \
+        -o image/overview/G082bI105A/G082bI105A.jpg \
+        -m image/overview/G082bI105A/G082bI105A_marked.jpg
+```
+
+> [!NOTE]
+> All good!
+
 #### G082bI105B
 
 ```{sh}
@@ -459,6 +479,9 @@ lmdmap -n G082bI105B \
         -m image/overview/G082bI105B/G082bI105B_marked.jpg
 ```
 
+> [!WARNING]
+> Seems to be quite off
+
 #### G084bI105A
 
 ```{sh}
@@ -468,6 +491,27 @@ lmdmap -n G084bI105A \
         -o image/overview/G084bI105A/G084bI105A.jpg \
         -m image/overview/G084bI105A/G084bI105A_marked.jpg
 ```
+
+```{sh}
+lmdmap -n G084bI105A \
+        -x -25 \
+        -i image/overview/G084bI105_post.jpg \
+        -t image/overview/G084bI105A/G084bI105A.csv \
+        -o image/overview/G084bI105A/G084bI105A.jpg \
+        -m image/overview/G084bI105A/G084bI105A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G084bI105A \
+        -x -25 -a \
+        -i image/overview/G084bI105_pre.jpg \
+        -t image/overview/G084bI105A/G084bI105A.csv \
+        -o image/overview/G084bI105A/G084bI105A.jpg \
+        -m image/overview/G084bI105A/G084bI105A_marked.jpg
+```
+
+> [!WARNING]
+> Some samples are from the central empty space
 
 #### G084bI105B
 
