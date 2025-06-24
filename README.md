@@ -192,6 +192,27 @@ lmdmap -n G019eI105A \
         -m image/overview/G019eI105A/G019eI105A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G019eI105A \
+        -s 1500 -x -85 -w 3 \
+        -i image/overview/G019eI105_post.jpg \
+        -t image/overview/G019eI105A/G019eI105A.csv \
+        -o image/overview/G019eI105A/G019eI105A.jpg \
+        -m image/overview/G019eI105A/G019eI105A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G019eI105A \
+        -s 1500 -x -85 -w 3 -a \
+        -i image/overview/G019eI105_pre.jpg \
+        -t image/overview/G019eI105A/G019eI105A.csv \
+        -o image/overview/G019eI105A/G019eI105A.jpg \
+        -m image/overview/G019eI105A/G019eI105A_marked.jpg
+```
+
+> [!NOTE]
+> All good!
+
 #### G019eI105B
 
 ```{sh}
