@@ -285,6 +285,27 @@ lmdmap -n G020eI205B \
         -m image/overview/G020eI205B/G020eI205B_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G020eI205B \
+        -x -35 -w 4 \
+        -i image/overview/G020eI205_post.jpg \
+        -t image/overview/G020eI205B/G020eI205B.csv \
+        -o image/overview/G020eI205B/G020eI205B.jpg \
+        -m image/overview/G020eI205B/G020eI205B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G020eI205B \
+        -x -35 -w 4 -a \
+        -i image/overview/G020eI205_pre.jpg \
+        -t image/overview/G020eI205B/G020eI205B.csv \
+        -o image/overview/G020eI205B/G020eI205B.jpg \
+        -m image/overview/G020eI205B/G020eI205B_marked.jpg
+```
+
+> [!NOTE]
+> All good!
+
 #### G021eI105A
 
 ```{sh}
@@ -295,6 +316,27 @@ lmdmap -n G021eI105A \
         -m image/overview/G021eI105A/G021eI105A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G021eI105A \
+        -x -30 -w 5 \
+        -i image/overview/G021eI105_post.jpg \
+        -t image/overview/G021eI105A/G021eI105A.csv \
+        -o image/overview/G021eI105A/G021eI105A.jpg \
+        -m image/overview/G021eI105A/G021eI105A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G021eI105A \
+        -x -30 -w 5 -a \
+        -i image/overview/G021eI105_pre.jpg \
+        -t image/overview/G021eI105A/G021eI105A.csv \
+        -o image/overview/G021eI105A/G021eI105A.jpg \
+        -m image/overview/G021eI105A/G021eI105A_marked.jpg
+```
+
+> [!NOTE]
+> All good!
+
 #### G021eI105B
 
 ```{sh}
@@ -304,6 +346,28 @@ lmdmap -n G021eI105B \
         -o image/overview/G021eI105B/G021eI105B.jpg \
         -m image/overview/G021eI105B/G021eI105B_marked.jpg
 ```
+
+```{sh}
+lmdmap -n G021eI105B \
+        -x -25 -w 2 \
+        -i image/overview/G021eI105_post.jpg \
+        -t image/overview/G021eI105B/G021eI105B.csv \
+        -o image/overview/G021eI105B/G021eI105B.jpg \
+        -m image/overview/G021eI105B/G021eI105B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G021eI105B \
+        -x -25 -w 2 -a \
+        -i image/overview/G021eI105_pre.jpg \
+        -t image/overview/G021eI105B/G021eI105B.csv \
+        -o image/overview/G021eI105B/G021eI105B.jpg \
+        -m image/overview/G021eI105B/G021eI105B_marked.jpg
+```
+
+> [!NOTE]
+> All good!
+
 
 #### G081bI105A
 
