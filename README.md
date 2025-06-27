@@ -718,11 +718,47 @@ lmdmap -n G105bI105B \
         -m image/overview/G105bI105B/G105bI105B_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G105bI105B \
+        -s 600 -x -40 \
+        -i image/overview/G105bI105_post.jpg \
+        -t image/overview/G105bI105B/G105bI105B.csv \
+        -o image/overview/G105bI105B/G105bI105B.jpg \
+        -m image/overview/G105bI105B/G105bI105B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G105bI105B \
+        -s 600 -x -40 -a \
+        -i image/overview/G105bI105_pre.jpg \
+        -t image/overview/G105bI105B/G105bI105B.csv \
+        -o image/overview/G105bI105B/G105bI105B.jpg \
+        -m image/overview/G105bI105B/G105bI105B_marked.jpg
+```
+
 #### G105bI105C
 
 ```{sh}
 lmdmap -n G105bI105C \
         -i image/overview/G105bI105_post.jpg \
+        -t image/overview/G105bI105C/G105bI105C.csv \
+        -o image/overview/G105bI105C/G105bI105C.jpg \
+        -m image/overview/G105bI105C/G105bI105C_marked.jpg
+```
+
+```{sh}
+lmdmap -n G105bI105C \
+        -s 600 -x -30 -d M302570,M302542,M302546 \
+        -i image/overview/G105bI105_post.jpg \
+        -t image/overview/G105bI105C/G105bI105C.csv \
+        -o image/overview/G105bI105C/G105bI105C.jpg \
+        -m image/overview/G105bI105C/G105bI105C_marked.jpg
+```
+
+```{sh}
+lmdmap -n G105bI105C \
+        -s 600 -x -30 -d M302570,M302542,M302546 -a \
+        -i image/overview/G105bI105_pre.jpg \
         -t image/overview/G105bI105C/G105bI105C.csv \
         -o image/overview/G105bI105C/G105bI105C.jpg \
         -m image/overview/G105bI105C/G105bI105C_marked.jpg
