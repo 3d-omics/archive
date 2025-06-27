@@ -579,11 +579,47 @@ lmdmap -n G095eI108B \
         -m image/overview/G095eI108B/G095eI108B_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G095eI108B \
+        -s 1300 -x -20 -w 5 \
+        -i image/overview/G095eI108_post.jpg \
+        -t image/overview/G095eI108B/G095eI108B.csv \
+        -o image/overview/G095eI108B/G095eI108B.jpg \
+        -m image/overview/G095eI108B/G095eI108B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G095eI108B \
+        -s 1300 -x -20 -w 5 -a \
+        -i image/overview/G095eI108_pre.jpg \
+        -t image/overview/G095eI108B/G095eI108B.csv \
+        -o image/overview/G095eI108B/G095eI108B.jpg \
+        -m image/overview/G095eI108B/G095eI108B_marked.jpg
+```
+
 #### G096eI107A
 
 ```{sh}
 lmdmap -n G096eI107A \
         -i image/overview/G096eI107_post.jpg \
+        -t image/overview/G096eI107A/G096eI107A.csv \
+        -o image/overview/G096eI107A/G096eI107A.jpg \
+        -m image/overview/G096eI107A/G096eI107A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G096eI107A \
+        -s 900 -x -30 -w 5 \
+        -i image/overview/G096eI107_post.jpg \
+        -t image/overview/G096eI107A/G096eI107A.csv \
+        -o image/overview/G096eI107A/G096eI107A.jpg \
+        -m image/overview/G096eI107A/G096eI107A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G096eI107A \
+        -s 900 -x -30 -w 5 -a \
+        -i image/overview/G096eI107_pre.jpg \
         -t image/overview/G096eI107A/G096eI107A.csv \
         -o image/overview/G096eI107A/G096eI107A.jpg \
         -m image/overview/G096eI107A/G096eI107A_marked.jpg
@@ -599,6 +635,23 @@ lmdmap -n G096eI107B \
         -m image/overview/G096eI107B/G096eI107B_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G096eI107B \
+        -s 900 -x -30 -w 5 \
+        -i image/overview/G096eI107_post.jpg \
+        -t image/overview/G096eI107B/G096eI107B.csv \
+        -o image/overview/G096eI107B/G096eI107B.jpg \
+        -m image/overview/G096eI107B/G096eI107B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G096eI107B \
+        -s 900 -x -30 -w 5 -a \
+        -i image/overview/G096eI107_pre.jpg \
+        -t image/overview/G096eI107B/G096eI107B.csv \
+        -o image/overview/G096eI107B/G096eI107B.jpg \
+        -m image/overview/G096eI107B/G096eI107B_marked.jpg
+```
 #### G097eI107A
 
 ```{sh}
@@ -609,11 +662,47 @@ lmdmap -n G097eI107A \
         -m image/overview/G097eI107A/G097eI107A_marked.jpg
 ```
 
+```{sh}
+lmdmap -n G097eI107A \
+        -s 1400 -x -80 -w 7 \
+        -i image/overview/G097eI107_post.jpg \
+        -t image/overview/G097eI107A/G097eI107A.csv \
+        -o image/overview/G097eI107A/G097eI107A.jpg \
+        -m image/overview/G097eI107A/G097eI107A_marked.jpg
+```
+
+```{sh}
+lmdmap -n G097eI107A \
+        -s 1400 -x -80 -w 7 -a \
+        -i image/overview/G097eI107_pre.jpg \
+        -t image/overview/G097eI107A/G097eI107A.csv \
+        -o image/overview/G097eI107A/G097eI107A.jpg \
+        -m image/overview/G097eI107A/G097eI107A_marked.jpg
+```
+
 #### G097eI107B
 
 ```{sh}
 lmdmap -n G097eI107B \
         -i image/overview/G097eI107_post.jpg \
+        -t image/overview/G097eI107B/G097eI107B.csv \
+        -o image/overview/G097eI107B/G097eI107B.jpg \
+        -m image/overview/G097eI107B/G097eI107B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G097eI107B \
+        -s 1400 -x -90 -w 5 -d M302172,M302179 \
+        -i image/overview/G097eI107_post.jpg \
+        -t image/overview/G097eI107B/G097eI107B.csv \
+        -o image/overview/G097eI107B/G097eI107B.jpg \
+        -m image/overview/G097eI107B/G097eI107B_marked.jpg
+```
+
+```{sh}
+lmdmap -n G097eI107B \
+        -s 1400 -x -90 -w 5 -d M302172,M302179 -a \
+        -i image/overview/G097eI107_pre.jpg \
         -t image/overview/G097eI107B/G097eI107B.csv \
         -o image/overview/G097eI107B/G097eI107B.jpg \
         -m image/overview/G097eI107B/G097eI107B_marked.jpg
