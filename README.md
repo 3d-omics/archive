@@ -3,6 +3,15 @@ Repository logging archiving of 3D'omics data.
 
 ## 2025-10-18
 
+### C_HT
+
+```{sh}
+screen -S C_HT
+conda activate arch3d
+cd C_HT
+arch3d macrosample -m C_HT.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
 ### C_MT
 
 ```{sh}
