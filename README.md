@@ -1,6 +1,36 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 2025-10-21
+
+### MSEB0010
+
+#### M018dI101A
+
+```{sh}
+lmdmap -n M018dI101A \
+        -i image/overview/M018dI101_post.jpg \
+        -t image/overview/M018dI101A/M018dI101A.csv \
+        -o image/overview/M018dI101A/M018dI101A.jpg \
+        -m image/overview/M018dI101A/M018dI101A_marked.jpg
+
+lmdmap -n M018dI101A \
+        -s 1400 -x -90 -w 5 \
+        -i image/overview/M018dI101_post.jpg \
+        -t image/overview/M018dI101A/M018dI101A.csv \
+        -o image/overview/M018dI101A/M018dI101A.jpg \
+        -m image/overview/M018dI101A/M018dI101A_marked.jpg
+
+lmdmap -n M018dI101A \
+        -s 1400 -x -90 -w 5 -a \
+        -i image/overview/M018dI101_pre.jpg \
+        -t image/overview/M018dI101A/M018dI101A.csv \
+        -o image/overview/M018dI101A/M018dI101A.jpg \
+        -m image/overview/M018dI101A/M018dI101A_marked.jpg
+```
+> [!NOTE]
+> All good!
+
 ## 2025-10-18
 
 ### C_HT
