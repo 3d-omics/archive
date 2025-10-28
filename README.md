@@ -1,6 +1,525 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 23-10-2025
+
+### MSEB0054 
+
+#### M080dI101B
+
+```{sh}
+lmdmap -n M080dI101B \
+        -i archive/M080dI101_post.jpg \
+        -t archive/M080dI101B/M080dI101B.csv \
+        -o archive/M080dI101B/M080dI101B.jpg \
+        -m archive/M080dI101B/M080dI101B_marked.jpg
+
+lmdmap -n M080dI101B \
+        -s 900 -x -90 -w 5 -d M305500 \
+        -i archive/M080dI101_post.jpg \
+        -t archive/M080dI101B/M080dI101B.csv \
+        -o archive/M080dI101B/M080dI101B.jpg \
+        -m archive/M080dI101B/M080dI101B_marked.jpg
+
+lmdmap -n M080dI101B \
+        -s 900 -x -90 -w 5 -d M305500 -a \
+        -i archive/M080dI101_pre.jpg \
+        -t archive/M080dI101B/M080dI101B.csv \
+        -o archive/M080dI101B/M080dI101B.jpg \
+        -m archive/M080dI101B/M080dI101B_marked.jpg
+```
+
+> [!WARNING]
+> JGL: M305500 excluded: Incorrect coordinate. Some LMD points slightly skewed.
+
+
+
+
+
+### MSEB0016 
+
+#### G125eI201A
+
+```{sh}
+lmdmap -n G125eI201A \
+        -i archive/G125eI201_post.jpg \
+        -t archive/G125eI201A/G125eI201A.csv \
+        -o archive/G125eI201A/G125eI201A.jpg \
+        -m archive/G125eI201A/G125eI201A_marked.jpg
+
+lmdmap -n G125eI201A \
+        -s 950 -x -10 -y -60 -w 20 -l 10 \
+        -i archive/G125eI201_post.jpg \
+        -t archive/G125eI201A/G125eI201A.csv \
+        -o archive/G125eI201A/G125eI201A.jpg \
+        -m archive/G125eI201A/G125eI201A_marked.jpg
+
+lmdmap -n G125eI201A \
+        -s 950 -x -10 -y -60 -w 20 -l 10 -a\
+        -i archive/G125eI201_pre.jpg \
+        -t archive/G125eI201A/G125eI201A.csv \
+        -o archive/G125eI201A/G125eI201A.jpg \
+        -m archive/G125eI201A/G125eI201A_marked.jpg
+```
+
+> [!CAUTION]
+> JGL: Some mismatch point-to-cut fitting. 
+
+
+
+
+
+### MSEB0017 
+
+#### G125eI201B
+
+```{sh}
+lmdmap -n G125eI201B \
+        -i archive/G125eI201_post.jpg \
+        -t archive/G125eI201B/G125eI201B.csv \
+        -o archive/G125eI201B/G125eI201B.jpg \
+        -m archive/G125eI201B/G125eI201B_marked.jpg
+
+lmdmap -n G125eI201B \
+        -s 900 -w 20 -l 10 -x -50 -d M301805 \
+        -i archive/G125eI201_post.jpg \
+        -t archive/G125eI201B/G125eI201B.csv \
+        -o archive/G125eI201B/G125eI201B.jpg \
+        -m archive/G125eI201B/G125eI201B_marked.jpg
+
+lmdmap -n G125eI201B \
+        -s 900 -w 20 -l 10 -x -50 -d M301805 -a \
+        -i archive/G125eI201_pre.jpg \
+        -t archive/G125eI201B/G125eI201B.csv \
+        -o archive/G125eI201B/G125eI201B.jpg \
+        -m archive/G125eI201B/G125eI201B_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: M301805 Excluded: incorrect coordinate. Few connection points between marks and cuts.
+
+
+### MSEB0058 + MSEB0059
+
+#### I031dD101A
+
+```{sh}
+lmdmap -n I031dD101A \
+        -i archive/I031dD101_post.jpg \
+        -t archive/I031dD101A/I031dD101A.csv \
+        -o archive/I031dD101A/I031dD101A.jpg \
+        -m archive/I031dD101A/I031dD101A_marked.jpg
+
+lmdmap -n I031dD101A \
+        -s 2000 -x -90 -w 7  \
+        -i archive/I031dD101_post.jpg \
+        -t archive/I031dD101A/I031dD101A.csv \
+        -o archive/I031dD101A/I031dD101A.jpg \
+        -m archive/I031dD101A/I031dD101A_marked.jpg
+
+lmdmap -n I031dD101A \
+        -s 2000 -x -90 -w 7 -a \
+        -i archive/I031dD101_pre.jpg \
+        -t archive/I031dD101A/I031dD101A.csv \
+        -o archive/I031dD101A/I031dD101A.jpg \
+        -m archive/I031dD101A/I031dD101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL: Hard to contrast cuts. Good point-to-cut matches - All good.
+
+
+#### I057dD101B
+
+```{sh}
+lmdmap -n I057dD101B \
+        -i archive/I057dD101_post.jpg \
+        -t archive/I057dD101B/I057dD101B.csv \
+        -o archive/I057dD101B/I057dD101B.jpg \
+        -m archive/I057dD101B/I057dD101B_marked.jpg
+
+lmdmap -n I057dD101B \
+        -s 1100 -x -93 -w 5 -d M305881 \
+        -i archive/I057dD101_post.jpg \
+        -t archive/I057dD101B/I057dD101B.csv \
+        -o archive/I057dD101B/I057dD101B.jpg \
+        -m archive/I057dD101B/I057dD101B_marked.jpg
+
+lmdmap -n I057dD101B \
+        -s 1100 -x -93 -w 5 -d M305881 -a \
+        -i archive/I057dD101_pre.jpg \
+        -t archive/I057dD101B/I057dD101B.csv \
+        -o archive/I057dD101B/I057dD101B.jpg \
+        -m archive/I057dD101B/I057dD101B_marked.jpg
+```
+
+> [!NOTE]
+> JGL: M305881 excluded: incorrect coordinate. Good point-to-cut match - All good.
+
+
+
+###  MSEB0056 + MSEB0057
+
+#### I009dD101A
+
+```{sh}
+lmdmap -n I009dD101A \
+        -i archive/I009dD101_post.jpg \
+        -t archive/I009dD101A/I009dD101A.csv \
+        -o archive/I009dD101A/I009dD101A.jpg \
+        -m archive/I009dD101A/I009dD101A_marked.jpg
+
+lmdmap -n I009dD101A \
+        -s 1200 -x -95 -w 5 -y -2\
+        -i archive/I009dD101_post.jpg \
+        -t archive/I009dD101A/I009dD101A.csv \
+        -o archive/I009dD101A/I009dD101A.jpg \
+        -m archive/I009dD101A/I009dD101A_marked.jpg
+
+lmdmap -n I009dD101A \
+        -s 1200 -x -95 -w 5 -y -2 -a \
+        -i archive/I009dD101_pre.jpg \
+        -t archive/I009dD101A/I009dD101A.csv \
+        -o archive/I009dD101A/I009dD101A.jpg \
+        -m archive/I009dD101A/I009dD101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL: Weird ERDA file naming: I009dD101A001. Good point-to-cut match - All good.
+
+
+
+#### I021dD101A
+
+```{sh}
+lmdmap -n I021dD101A \
+        -i archive/I021dD101_post.jpg \
+        -t archive/I021dD101A/I021dD101A.csv \
+        -o archive/I021dD101A/I021dD101A.jpg \
+        -m archive/I021dD101A/I021dD101A_marked.jpg
+
+lmdmap -n I021dD101A \
+        -s 2000 -x -92 -w 5 \
+        -i archive/I021dD101_post.jpg \
+        -t archive/I021dD101A/I021dD101A.csv \
+        -o archive/I021dD101A/I021dD101A.jpg \
+        -m archive/I021dD101A/I021dD101A_marked.jpg
+
+lmdmap -n I021dD101A \
+        -s 2000 -x -92 -w 5 -a \
+        -i archive/I021dD101_pre.jpg \
+        -t archive/I021dD101A/I021dD101A.csv \
+        -o archive/I021dD101A/I021dD101A.jpg \
+        -m archive/I021dD101A/I021dD101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL: Good point-to-cut match - all good.
+
+
+#### M065aI101A
+
+```{sh}
+lmdmap -n M065aI101A \
+        -i archive/M065aI101A_post.jpg \
+        -t archive/M065aI101A/M065aI101A.csv \
+        -o archive/M065aI101A/M065aI101A.jpg \
+        -m archive/M065aI101A/M065aI101A_marked.jpg
+
+lmdmap -n M065aI101A \
+        -s 1200 -x -82 -w 5 \
+        -i archive/M065aI101A_post.jpg \
+        -t archive/M065aI101A/M065aI101A.csv \
+        -o archive/M065aI101A/M065aI101A.jpg \
+        -m archive/M065aI101A/M065aI101A_marked.jpg
+
+lmdmap -n M065aI101A \
+        -s 1200 -x -82 -w 5 -a \
+        -i archive/M065aI101A_pre.jpg \
+        -t archive/M065aI101A/M065aI101A.csv \
+        -o archive/M065aI101A/M065aI101A.jpg \
+        -m archive/M065aI101A/M065aI101A_marked.jpg
+```
+
+> [!NOTE]
+> [!WARNING]
+> [!CAUTION]
+> JGL: Good point-to-cut match - all good.
+
+
+### MSEB0048
+
+#### M002aI101A
+
+```{sh}
+
+lmdmap -n M002aI101A \
+        -i archive/M002aI101_post.jpg \
+        -t archive/M002aI101A/M002aI101A.csv \
+        -o archive/M002aI101A/M002aI101A.jpg \
+        -m archive/M002aI101A/M002aI101A_marked.jpg
+
+lmdmap -n M002aI101A \
+        -x -92 -w 4 -y 2\
+        -i archive/M002aI101_post.jpg \
+        -t archive/M002aI101A/M002aI101A.csv \
+        -o archive/M002aI101A/M002aI101A.jpg \
+        -m archive/M002aI101A/M002aI101A_marked.jpg
+
+lmdmap -n M002aI101A \
+        -x -92 -w 4 -y 2 -a \
+        -i archive/M002aI101_pre2.jpg \
+        -t archive/M002aI101A/M002aI101A.csv \
+        -o archive/M002aI101A/M002aI101A.jpg \
+        -m archive/M002aI101A/M002aI101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL: 2 Pre-files found Pre2 used for analysis - correct overlaying between images. Good point-to-cut match - All good.
+
+#### M022aH102A
+
+```{sh}
+
+lmdmap -n M022aH102A \
+        -i archive/M022aH102_post.jpg \
+        -t archive/M022aH102A/M022aH102A.csv \
+        -o archive/M022aH102A/M022aH102A.jpg \
+        -m archive/M022aH102A/M022aH102A_marked.jpg
+
+lmdmap -n M022aH102A \
+        -x -90 -w 3 -l -2  \
+        -i archive/M022aH102_post.jpg \
+        -t archive/M022aH102A/M022aH102A.csv \
+        -o archive/M022aH102A/M022aH102A.jpg \
+        -m archive/M022aH102A/M022aH102A_marked.jpg
+
+lmdmap -n M022aH102A \
+        -x -90 -w 3 -l -2 -a \
+        -i archive/M022aH102_pre.jpg \
+        -t archive/M022aH102A/M022aH102A.csv \
+        -o archive/M022aH102A/M022aH102A.jpg \
+        -m archive/M022aH102A/M022aH102A_marked.jpg
+```
+
+> [!NoteCAUTION]
+> JGL:  Good point-to-cut match. All good. 
+
+
+### MSEB0049
+
+#### M002aI101B
+
+```{sh}
+
+lmdmap -n M002aI101B \
+        -i archive/M002aI101_post.jpg \
+        -t archive/M002aI101B/M002aI101B.csv \
+        -o archive/M002aI101B/M002aI101B.jpg \
+        -m archive/M002aI101B/M002aI101B_marked.jpg
+
+lmdmap -n M002aI101B \
+        -x -91 -w 5 -l -1 -y 2 \
+        -i archive/M002aI101_post.jpg \
+        -t archive/M002aI101B/M002aI101B.csv \
+        -o archive/M002aI101B/M002aI101B.jpg \
+        -m archive/M002aI101B/M002aI101B_marked.jpg
+
+lmdmap -n M002aI101B \
+        -x -91 -w 5 -l -1 -y 2 -a \
+        -i archive/M002aI101_pre2.jpg \
+        -t archive/M002aI101B/M002aI101B.csv \
+        -o archive/M002aI101B/M002aI101B.jpg \
+        -m archive/M002aI101B/M002aI101B_marked.jpg
+```
+
+> [!NOTE]
+> JGL: 2 Pre-files found Pre2 used for analysis - correct overlaying between images. Good point-to-cut match - All good.
+
+
+#### M022aH102B
+
+```{sh}
+lmdmap -n M022aH102B \
+        -i archive/M022aH102_post.jpg \
+        -t archive/M022aH102B/M022aH102B.csv \
+        -o archive/M022aH102B/M022aH102B.jpg \
+        -m archive/M022aH102B/M022aH102B_marked.jpg
+
+lmdmap -n M022aH102B \
+        -x -97 -w 5 -d M304918,M304924 \
+        -i archive/M022aH102_post.jpg \
+        -t archive/M022aH102B/M022aH102B.csv \
+        -o archive/M022aH102B/M022aH102B.jpg \
+        -m archive/M022aH102B/M022aH102B_marked.jpg
+
+lmdmap -n M022aH102B \
+        -x -97 -w 5 -d M304918,M304924 -a \
+        -i archive/M022aH102_pre.jpg \
+        -t archive/M022aH102B/M022aH102B.csv \
+        -o archive/M022aH102B/M022aH102B.jpg \
+        -m archive/M022aH102B/M022aH102B_marked.jpg
+```
+
+> [!CAUTION]
+> JGL:  Excluded M304918,M304924 - incorrect coordinate (membrane controls). Reasonable point-to-cut match.
+
+
+### MSEB0050
+
+#### M039dI101A
+
+```{sh}
+lmdmap -n M039dI101A \
+        -i archive/M039dI101_post.jpg \
+        -t archive/M039dI101A/M039dI101A.csv \
+        -o archive/M039dI101A/M039dI101A.jpg \
+        -m archive/M039dI101A/M039dI101A_marked.jpg
+
+lmdmap -n M039dI101A \
+        -s 1200 -x -84 -w 5 \
+        -i archive/M039dI101_post.jpg \
+        -t archive/M039dI101A/M039dI101A.csv \
+        -o archive/M039dI101A/M039dI101A.jpg \
+        -m archive/M039dI101A/M039dI101A_marked.jpg
+
+lmdmap -n M039dI101A \
+        -s 1200 -x -84 -w 5 -d M305054,M305041,M305064,M305052 -a \
+        -i archive/M039dI101_pre.jpg \
+        -t archive/M039dI101A/M039dI101A.csv \
+        -o archive/M039dI101A/M039dI101A.jpg \
+        -m archive/M039dI101A/M039dI101A_marked.jpg
+```
+
+> [!WARNING]
+> JGL:  M305054,M305041,M305064,M305052 are membrane controls - incorrect coordinate. Good point-to-cut match.
+
+
+#### M038dI101A *****
+
+```{sh}
+ 
+lmdmap -n M038dI101A \
+        -i archive/M038dI101_post.jpg \
+        -t archive/M038dI101A/M038dI101A.csv \
+        -o archive/M038dI101A/M038dI101A.jpg \
+        -m archive/M038dI101A/M038dI101A_marked.jpg
+
+lmdmap -n M038dI101A \
+        -x -95 -w 4 -y 2 \
+        -i archive/M038dI101_post.jpg \
+        -t archive/M038dI101A/M038dI101A.csv \
+        -o archive/M038dI101A/M038dI101A.jpg \
+        -m archive/M038dI101A/M038dI101A_marked.jpg
+
+lmdmap -n M038dI101A \
+        -x -95 -w 4 -y 2 -a \
+        -i archive/M038dI101_pre.jpg \
+        -t archive/M038dI101A/M038dI101A.csv \
+        -o archive/M038dI101A/M038dI101A.jpg \
+        -m archive/M038dI101A/M038dI101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL:  Good point-to-cut match. Upper and lower half of section slightly misaligned.
+
+
+## 27-10-2025
+
+## MSEB0052 + MSEB0053
+
+#### M017dI101A *****
+
+```{sh}
+lmdmap -n M017dI101A \
+        -i archive/M017dI101_post.jpg \
+        -t archive/M017dI101A/M017dI101A.csv \
+        -o archive/M017dI101A/M017dI101A.jpg \
+        -m archive/M017dI101A/M017dI101A_marked.jpg
+
+lmdmap -n M017dI101A \
+        -x -95 -w 5 \
+        -i archive/M017dI101_post.jpg \
+        -t archive/M017dI101A/M017dI101A.csv \
+        -o archive/M017dI101A/M017dI101A.jpg \
+        -m archive/M017dI101A/M017dI101A_marked.jpg
+
+lmdmap -n M017dI101A \
+        -x -95 -w 5 -a \
+        -i archive/M017dI101_pre.jpg \
+        -t archive/M017dI101A/M017dI101A.csv \
+        -o archive/M017dI101A/M017dI101A.jpg \
+        -m archive/M017dI101A/M017dI101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL:  Good point-to-cut match. All good.
+
+
+#### M078dI101A *****
+
+```{sh}
+ 
+lmdmap -n M078dI101A \
+        -i archive/M078dI101_post.jpg \
+        -t archive/M078dI101A/M078dI101A.csv \
+        -o archive/M078dI101A/M078dI101A.jpg \
+        -m archive/M078dI101A/M078dI101A_marked.jpg
+
+lmdmap -n M078dI101A \
+        -x -88 -w 5 -d M305275  \
+        -i archive/M078dI101_post.jpg \
+        -t archive/M078dI101A/M078dI101A.csv \
+        -o archive/M078dI101A/M078dI101A.jpg \
+        -m archive/M078dI101A/M078dI101A_marked.jpg
+
+lmdmap -n M078dI101A \
+        -x -88 -w 5 -d M305275 -a  \
+        -i archive/M078dI101_pre.jpg \
+        -t archive/M078dI101A/M078dI101A.csv \
+        -o archive/M078dI101A/M078dI101A.jpg \
+        -m archive/M078dI101A/M078dI101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL:  Reasonable point-to-cut match. All good. M305275 Excluded: incorrect coordinate (membrane control)
+
+
+#### M017dI101B *****
+
+```{sh}
+ 
+lmdmap -n M017dI101B \
+        -i archive/M017dI101_post.jpg \
+        -t archive/M017dI101B/M017dI101B.csv \
+        -o archive/M017dI101B/M017dI101B.jpg \
+        -m archive/M017dI101B/M017dI101B_marked.jpg
+
+lmdmap -n M017dI101B \
+        -x -100 -d M305238\
+        -i archive/M017dI101_post.jpg \
+        -t archive/M017dI101B/M017dI101B.csv \
+        -o archive/M017dI101B/M017dI101B.jpg \
+        -m archive/M017dI101B/M017dI101B_marked.jpg
+```
+
+```
+lmdmap -n M017dI101B \
+        -x -100 -d M305238 -a\
+        -i archive/M017dI101_pre.jpg \
+        -t archive/M017dI101B/M017dI101B.csv \
+        -o archive/M017dI101B/M017dI101B.jpg \
+        -m archive/M017dI101B/M017dI101B_marked.jpg
+```
+
+> [!WARNING]
+> JGL:  Okay point-to-cut match, some points far off potential cuts. M305238 Excluded: incorrect coordinate (membrane control)
+
+
+
+
+
 ## 2025-10-21
 
 ### MSEB0054
