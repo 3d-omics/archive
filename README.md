@@ -1,6 +1,619 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+
+
+## 29-10-2025
+
+
+### MSEB0044 + MSEB0045
+
+#### M003aI101A
+
+```{sh}
+lmdmap -n M003aI101A \
+        -i archive/M003aI101_post.jpg \
+        -t archive/M003aI101A/M003aI101A.csv \
+        -o archive/M003aI101A/M003aI101A.jpg \
+        -m archive/M003aI101A/M003aI101A_marked.jpg
+
+lmdmap -n M003aI101A \
+        -x -70 -w 9 -y -3\
+        -i archive/M003aI101_post.jpg \
+        -t archive/M003aI101A/M003aI101A.csv \
+        -o archive/M003aI101A/M003aI101A.jpg \
+        -m archive/M003aI101A/M003aI101A_marked.jpg
+
+lmdmap -n M003aI101A \
+        -x -70 -w 9 -y -3 -a\
+        -i archive/M003aI101_pre.jpg \
+        -t archive/M003aI101A/M003aI101A.csv \
+        -o archive/M003aI101A/M003aI101A.jpg \
+        -m archive/M003aI101A/M003aI101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL:  Good point-to-cut matches - All good.
+
+#### M061aH101A 
+
+```{sh}
+lmdmap -n M061aH101A \
+        -i archive/M061aH101_post.jpg \
+        -t archive/M061aH101A/M061aH101A.csv \
+        -o archive/M061aH101A/M061aH101A.jpg \
+        -m archive/M061aH101A/M061aH101A_marked.jpg
+
+lmdmap -n M061aH101A \
+        -x -150 -w 40 -y -5 -d M304525,M304510\
+        -i archive/M061aH101_post.jpg \
+        -t archive/M061aH101A/M061aH101A.csv \
+        -o archive/M061aH101A/M061aH101A.jpg \
+        -m archive/M061aH101A/M061aH101A_marked.jpg
+
+lmdmap -n M061aH101A \
+        -x -150 -w 40 -y -5 -d M304525,M304510 -a\
+        -i archive/M061aH101_pre.jpg \
+        -t archive/M061aH101A/M061aH101A.csv \
+        -o archive/M061aH101A/M061aH101A.jpg \
+        -m archive/M061aH101A/M061aH101A_marked.jpg
+
+```
+
+> [!CAUTION]
+> JGL:  M304525,M304510 excluded: Incorrect coordinate (memebrane control). Very poor point-to-cut match, many coordinate points far off potential cuts, a lot (more than 20) points do not have a close match in vicininity.
+
+
+### MSEB0042 + MSEB0043
+
+#### M021aI101C 
+
+```{sh}
+lmdmap -n M021aI101C \
+        -i archive/M021aI101_post.jpg \
+        -t archive/M021aI101C/M021aI101C.csv \
+        -o archive/M021aI101C/M021aI101C.jpg \
+        -m archive/M021aI101C/M021aI101C_marked.jpg
+
+lmdmap -n M021aI101C \
+        -x -95 \
+        -i archive/M021aI101_post.jpg \
+        -t archive/M021aI101C/M021aI101C.csv \
+        -o archive/M021aI101C/M021aI101C.jpg \
+        -m archive/M021aI101C/M021aI101C_marked.jpg
+
+lmdmap -n M021aI101C \
+        -x -95 -a \
+        -i archive/M021aI101_pre.jpg \
+        -t archive/M021aI101C/M021aI101C.csv \
+        -o archive/M021aI101C/M021aI101C.jpg \
+        -m archive/M021aI101C/M021aI101C_marked.jpg
+
+```
+
+> [!NOTE]
+> JGL: Good point-to-cut match - all good.
+
+
+#### M042aI101A
+
+```{sh}
+lmdmap -n M042aI101A \
+        -i archive/M042aI101_post.jpg \
+        -t archive/M042aI101A/M042aI101A.csv \
+        -o archive/M042aI101A/M042aI101A.jpg \
+        -m archive/M042aI101A/M042aI101A_marked.jpg
+
+lmdmap -n M042aI101A \
+        -x -95 -w 5 -d M304335 \
+        -i archive/M042aI101_post.jpg \
+        -t archive/M042aI101A/M042aI101A.csv \
+        -o archive/M042aI101A/M042aI101A.jpg \
+        -m archive/M042aI101A/M042aI101A_marked.jpg
+
+lmdmap -n M042aI101A \
+        -x -95 -w 5 -d M304335 -a \
+        -i archive/M042aI101_pre.jpg \
+        -t archive/M042aI101A/M042aI101A.csv \
+        -o archive/M042aI101A/M042aI101A.jpg \
+        -m archive/M042aI101A/M042aI101A_marked.jpg
+
+```
+
+> [!CAUTION]
+> JGL:  M304335 excluded: Incorrect coordinate (memebrane control). Good point-to-cut match - all good.
+
+
+
+### MSEB0040
+
+#### J018eD104A 
+
+```{sh}
+lmdmap -n J018eD104A \
+        -i archive/J018eD104_post.jpg \
+        -t archive/J018eD104A/J018eD104A.csv \
+        -o archive/J018eD104A/J018eD104A.jpg \
+        -m archive/J018eD104A/J018eD104A_marked.jpg
+
+lmdmap -n J018eD104A \
+        -s 1500 -x -20 -w 5\
+        -i archive/J018eD104_post.jpg \
+        -t archive/J018eD104A/J018eD104A.csv \
+        -o archive/J018eD104A/J018eD104A.jpg \
+        -m archive/J018eD104A/J018eD104A_marked.jpg
+
+lmdmap -n J018eD104A \
+        -s 1500 -x -20 -w 5 -a\
+        -i archive/J018eD104_pre.jpg \
+        -t archive/J018eD104A/J018eD104A.csv \
+        -o archive/J018eD104A/J018eD104A.jpg \
+        -m archive/J018eD104A/J018eD104A_marked.jpg
+```
+
+> [!Note]
+> JGL: Good point-to-cut match - all good.
+
+
+
+
+### MSEB0041
+
+
+#### J018eD104B
+
+```{sh}
+lmdmap -n J018eD104B \
+        -i archive/J018eD104_post.jpg \
+        -t archive/J018eD104B/J018eD104B.csv \
+        -o archive/J018eD104B/J018eD104B.jpg \
+        -m archive/J018eD104B/J018eD104B_marked.jpg
+
+lmdmap -n J018eD104B \
+        -s 1400 -x -25 -w 4\
+        -i archive/J018eD104_post.jpg \
+        -t archive/J018eD104B/J018eD104B.csv \
+        -o archive/J018eD104B/J018eD104B.jpg \
+        -m archive/J018eD104B/J018eD104B_marked.jpg
+
+lmdmap -n J018eD104B \
+        -s 1400 -x -25 -w 4 -a \
+        -i archive/J018eD104_pre.jpg \
+        -t archive/J018eD104B/J018eD104B.csv \
+        -o archive/J018eD104B/J018eD104B.jpg \
+        -m archive/J018eD104B/J018eD104B_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Okay point-to-cut match - some of them inconsistent off-center i arbitrary directions. The section is weirdly stitch together, which some bigger disparities between frames. 
+
+
+#### J020eD104A
+
+```{sh}
+lmdmap -n J020eD104A \
+        -i archive/J020eD104_post.jpg \
+        -t archive/J020eD104A/J020eD104A.csv \
+        -o archive/J020eD104A/J020eD104A.jpg \
+        -m archive/J020eD104A/J020eD104A_marked.jpg
+
+lmdmap -n J020eD104A \
+        -x -50 -y -10 \
+        -i archive/J020eD104_post.jpg \
+        -t archive/J020eD104A/J020eD104A.csv \
+        -o archive/J020eD104A/J020eD104A.jpg \
+        -m archive/J020eD104A/J020eD104A_marked.jpg
+
+lmdmap -n J020eD104A \
+        -x -50 -y -10 -a \
+        -i archive/J020eD104_pre.jpg \
+        -t archive/J020eD104A/J020eD104A.csv \
+        -o archive/J020eD104A/J020eD104A.jpg \
+        -m archive/J020eD104A/J020eD104A_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Not great point-to-cut coverages. Best case found, but many misalignments.
+
+
+### MSEB0039
+
+#### J020eD104B
+
+```{sh}
+lmdmap -n J020eD104B \
+        -i archive/J020eD104_post.jpg \
+        -t archive/J020eD104B/J020eD104B.csv \
+        -o archive/J020eD104B/J020eD104B.jpg \
+        -m archive/J020eD104B/J020eD104B_marked.jpg
+
+lmdmap -n J020eD104B \
+        -x -30 -w 5\
+        -i archive/J020eD104_post.jpg \
+        -t archive/J020eD104B/J020eD104B.csv \
+        -o archive/J020eD104B/J020eD104B.jpg \
+        -m archive/J020eD104B/J020eD104B_marked.jpg
+
+lmdmap -n J020eD104B \
+        -x -30 -w 5 -a \
+        -i archive/J020eD104_pre.jpg \
+        -t archive/J020eD104B/J020eD104B.csv \
+        -o archive/J020eD104B/J020eD104B.jpg \
+        -m archive/J020eD104B/J020eD104B_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Not great point-to-cut coverages. Best case found, but many misalignments.
+
+
+
+## 04-11-2025
+
+### MSEB0034
+
+#### J010eD104A
+
+```{sh}
+lmdmap -n J010eD104A \
+        -i archive/J010eD104_post.jpg \
+        -t archive/J010eD104A/J010eD104A.csv \
+        -o archive/J010eD104A/J010eD104A.jpg \
+        -m archive/J010eD104A/J010eD104A_marked.jpg
+
+lmdmap -n J010eD104A \
+        -x -57 -w 5 \
+        -i archive/J010eD104_post.jpg \
+        -t archive/J010eD104A/J010eD104A.csv \
+        -o archive/J010eD104A/J010eD104A.jpg \
+        -m archive/J010eD104A/J010eD104A_marked.jpg
+
+lmdmap -n J010eD104A \
+        -x -57 -w 5 -a \
+        -i archive/J010eD104_pre.jpg \
+        -t archive/J010eD104A/J010eD104A.csv \
+        -o archive/J010eD104A/J010eD104A.jpg \
+        -m archive/J010eD104A/J010eD104A_marked.jpg
+
+```
+
+> [!NOTE]
+> JGL: Good point-to-cut coverages. All good.
+
+
+#### J005eD104A
+
+```{sh}
+lmdmap -n J005eD104A \
+        -i archive/J005eD104_post.jpg \
+        -t archive/J005eD104A/J005eD104A.csv \
+        -o archive/J005eD104A/J005eD104A.jpg \
+        -m archive/J005eD104A/J005eD104A_marked.jpg
+
+lmdmap -n J005eD104A \
+        -s 1500 -x -22 -w 7 \
+        -i archive/J005eD104_post.jpg \
+        -t archive/J005eD104A/J005eD104A.csv \
+        -o archive/J005eD104A/J005eD104A.jpg \
+        -m archive/J005eD104A/J005eD104A_marked.jpg
+
+lmdmap -n J005eD104A \
+        -s 1500 -x -22 -w 7 -a \
+        -i archive/J005eD104_pre.jpg \
+        -t archive/J005eD104A/J005eD104A.csv \
+        -o archive/J005eD104A/J005eD104A.jpg \
+        -m archive/J005eD104A/J005eD104A_marked.jpg
+
+```
+
+> [!NOTE]
+> JGL: Good point-to-cut coverages. All good. 
+
+
+
+### MSEB0035
+
+#### J010eD104B
+
+```{sh}
+lmdmap -n J010eD104B \
+        -i archive/J010eD104_post.jpg \
+        -t archive/J010eD104B/J010eD104B.csv \
+        -o archive/J010eD104B/J010eD104B.jpg \
+        -m archive/J010eD104B/J010eD104B_marked.jpg
+
+lmdmap -n J010eD104B \
+        -s 1100 -x -32 -w 7 -d M303490 \
+        -i archive/J010eD104_post.jpg \
+        -t archive/J010eD104B/J010eD104B.csv \
+        -o archive/J010eD104B/J010eD104B.jpg \
+        -m archive/J010eD104B/J010eD104B_marked.jpg
+
+lmdmap -n J010eD104B \
+        -s 1100 -x -32 -w 7 -d M303490 -a \
+        -i archive/J010eD104_pre.jpg \
+        -t archive/J010eD104B/J010eD104B.csv \
+        -o archive/J010eD104B/J010eD104B.jpg \
+        -m archive/J010eD104B/J010eD104B_marked.jpg
+```
+
+> [!NOTE]
+> JGL: Good point-to-cut coverages. All good. M303490 Excluded: incorrect coordinate (membrane control)
+
+
+
+#### J005eD104B
+
+```{sh}
+lmdmap -n J005eD104B \
+        -i archive/J005eD104_post.jpg \
+        -t archive/J005eD104B/J005eD104B.csv \
+        -o archive/J005eD104B/J005eD104B.jpg \
+        -m archive/J005eD104B/J005eD104B_marked.jpg
+
+lmdmap -n J005eD104B \
+        -s 1200 -w 0 -x -20 \
+        -i archive/J005eD104_post.jpg \
+        -t archive/J005eD104B/J005eD104B.csv \
+        -o archive/J005eD104B/J005eD104B.jpg \
+        -m archive/J005eD104B/J005eD104B_marked.jpg
+
+lmdmap -n J005eD104B \
+        -s 1200 -x -20 -a\
+        -i archive/J005eD104_pre.jpg \
+        -t archive/J005eD104B/J005eD104B.csv \
+        -o archive/J005eD104B/J005eD104B.jpg \
+        -m archive/J005eD104B/J005eD104B_marked.jpg
+```
+
+> [!WARNING]
+> JGL: Poor point-to-cut coverages.
+
+
+### MSEB0036
+
+#### J011eD104A
+
+```{sh}
+
+lmdmap -n J011eD104A \
+        -i archive/J011eD104_post.jpg \
+        -t archive/J011eD104A/J011eD104A.csv \
+        -o archive/J011eD104A/J011eD104A.jpg \
+        -m archive/J011eD104A/J011eD104A_marked.jpg
+
+lmdmap -n J011eD104A \
+        -x -35 -w 4 \
+        -i archive/J011eD104_post.jpg \
+        -t archive/J011eD104A/J011eD104A.csv \
+        -o archive/J011eD104A/J011eD104A.jpg \
+        -m archive/J011eD104A/J011eD104A_marked.jpg
+
+lmdmap -n J011eD104A \
+        -x -35 -w 4 -a \
+        -i archive/J011eD104_pre.jpg \
+        -t archive/J011eD104A/J011eD104A.csv \
+        -o archive/J011eD104A/J011eD104A.jpg \
+        -m archive/J011eD104A/J011eD104A_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Poor point-to-cut coverages.
+
+#### J009eD104A
+
+```{sh}
+lmdmap -n J009eD104A \
+        -i archive/J009eD104_post.jpg \
+        -t archive/J009eD104A/J009eD104A.csv \
+        -o archive/J009eD104A/J009eD104A.jpg \
+        -m archive/J009eD104A/J009eD104A_marked.jpg
+
+lmdmap -n J009eD104A \
+        -s 1500 -x -25 -w 5 -y -5\
+        -i archive/J009eD104_post.jpg \
+        -t archive/J009eD104A/J009eD104A.csv \
+        -o archive/J009eD104A/J009eD104A.jpg \
+        -m archive/J009eD104A/J009eD104A_marked.jpg
+
+lmdmap -n J009eD104A \
+        -s 1500 -x -25 -w 5 -y -5 -a \
+        -i archive/J009eD104_pre.jpg \
+        -t archive/J009eD104A/J009eD104A.csv \
+        -o archive/J009eD104A/J009eD104A.jpg \
+        -m archive/J009eD104A/J009eD104A_marked.jpg
+
+```
+
+> [!NOTE]
+> JGL: Okay point-to-cut coverages.
+
+
+### MSEB0037
+
+#### J011eD104B 
+
+```{sh}
+lmdmap -n J011eD104B \
+        -i archive/J011eD104_post.jpg \
+        -t archive/J011eD104B/J011eD104B.csv \
+        -o archive/J011eD104B/J011eD104B.jpg \
+        -m archive/J011eD104B/J011eD104B_marked.jpg
+
+lmdmap -n J011eD104B \
+        -s 1400 -x -40 -w 6 -d M303685 \
+        -i archive/J011eD104_post.jpg \
+        -t archive/J011eD104B/J011eD104B.csv \
+        -o archive/J011eD104B/J011eD104B.jpg \
+        -m archive/J011eD104B/J011eD104B_marked.jpg
+
+lmdmap -n J011eD104B \
+        -s 1400 -x -40 -w 6 -d M303685 -a \
+        -i archive/J011eD104_pre.jpg \
+        -t archive/J011eD104B/J011eD104B.csv \
+        -o archive/J011eD104B/J011eD104B.jpg \
+        -m archive/J011eD104B/J011eD104B_marked.jpg
+
+``` 
+
+> [!NOTE]
+> JGL: Okay point-to-cut coverages. M303685 Excluded: incorrect coordinate (not plotted at 2000 pixels [outside cryosection])
+
+
+#### J009eD104B
+
+```{sh}
+lmdmap -n J009eD104B \
+        -i archive/J009eD104_post.jpg \
+        -t archive/J009eD104B/J009eD104B.csv \
+        -o archive/J009eD104B/J009eD104B.jpg \
+        -m archive/J009eD104B/J009eD104B_marked.jpg
+
+lmdmap -n J009eD104B \
+        -s 1300 -x -35 -w 7 -l -4\
+        -i archive/J009eD104_post.jpg \
+        -t archive/J009eD104B/J009eD104B.csv \
+        -o archive/J009eD104B/J009eD104B.jpg \
+        -m archive/J009eD104B/J009eD104B_marked.jpg
+
+lmdmap -n J009eD104B \
+        -s 1300 -x -35 -w 7 -l -4 -a \
+        -i archive/J009eD104_pre.jpg \
+        -t archive/J009eD104B/J009eD104B.csv \
+        -o archive/J009eD104B/J009eD104B.jpg \
+        -m archive/J009eD104B/J009eD104B_marked.jpg
+```
+
+> [!NOTE]
+> JGL: Okay point-to-cut coverages.
+
+
+
+### MSEB0032
+
+#### J001eD101A !
+
+```{sh}
+lmdmap -n J001eD101A \
+        -i archive/J001eD101_post.jpg \
+        -t archive/J001eD101A/J001eD101A.csv \
+        -o archive/J001eD101A/J001eD101A.jpg \
+        -m archive/J001eD101A/J001eD101A_marked.jpg
+
+lmdmap -n J001eD101A \
+        -s 2200 -x -100 \
+        -i archive/J001eD101_post.jpg \
+        -t archive/J001eD101A/J001eD101A.csv \
+        -o archive/J001eD101A/J001eD101A.jpg \
+        -m archive/J001eD101A/J001eD101A_marked.jpg
+
+lmdmap -n J001eD101A \
+        -s 2200 -x -100 -a \
+        -i archive/J001eD101_pre.jpg \
+        -t archive/J001eD101A/J001eD101A.csv \
+        -o archive/J001eD101A/J001eD101A.jpg \
+        -m archive/J001eD101A/J001eD101A_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Poor camera center setting, wasting pixels and resolution on finding the cut. Okay point-to-cut coverages given resolution.
+
+#### J002eD101A
+
+```{sh}
+lmdmap -n J002eD101A \
+        -i archive/J002eD101_post.jpg \
+        -t archive/J002eD101A/J002eD101A.csv \
+        -o archive/J002eD101A/J002eD101A.jpg \
+        -m archive/J002eD101A/J002eD101A_marked.jpg
+
+lmdmap -n J002eD101A \
+        -s 1200 -x -130 -w 5 -y 15 \
+        -i archive/J002eD101_post.jpg \
+        -t archive/J002eD101A/J002eD101A.csv \
+        -o archive/J002eD101A/J002eD101A.jpg \
+        -m archive/J002eD101A/J002eD101A_marked.jpg
+
+lmdmap -n J002eD101A \
+        -s 1200 -x -130 -w 5 -y 15 -a\
+        -i archive/J002eD101_pre.jpg \
+        -t archive/J002eD101A/J002eD101A.csv \
+        -o archive/J002eD101A/J002eD101A.jpg \
+        -m archive/J002eD101A/J002eD101A_marked.jpg
+```
+
+> [!NOTE]
+> JGL: Reasonable point-to-cut coverages.
+
+
+
+### MSEB0033
+
+#### J001eD101B 
+
+```{sh}
+lmdmap -n J001eD101B \
+        -i archive/J001eD101_post.jpg \
+        -t archive/J001eD101B/J001eD101B.csv \
+        -o archive/J001eD101B/J001eD101B.jpg \
+        -m archive/J001eD101B/J001eD101B_marked.jpg
+
+lmdmap -n J001eD101B \
+        -x -100 -w 4 -l 1\
+        -i archive/J001eD101_post.jpg \
+        -t archive/J001eD101B/J001eD101B.csv \
+        -o archive/J001eD101B/J001eD101B.jpg \
+        -m archive/J001eD101B/J001eD101B_marked.jpg
+
+lmdmap -n J001eD101B \
+        -x -100 -w 4 -l 1 -a\
+        -i archive/J001eD101_pre.jpg \
+        -t archive/J001eD101B/J001eD101B.csv \
+        -o archive/J001eD101B/J001eD101B.jpg \
+        -m archive/J001eD101B/J001eD101B_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Poor point-to-cut coverages.
+
+#### J002eD101B
+
+```{sh}
+lmdmap -n J002eD101B \
+        -i archive/J002eD101_post.jpg \
+        -t archive/J002eD101B/J002eD101B.csv \
+        -o archive/J002eD101B/J002eD101B.jpg \
+        -m archive/J002eD101B/J002eD101B_marked.jpg
+
+lmdmap -n J002eD101B \
+        -x -118 -w 4 -y 20 \
+        -i archive/J002eD101_post.jpg \
+        -t archive/J002eD101B/J002eD101B.csv \
+        -o archive/J002eD101B/J002eD101B.jpg \
+        -m archive/J002eD101B/J002eD101B_marked.jpg
+
+lmdmap -n J002eD101B \
+        -x -118 -w 4 -y 20 -a \
+        -i archive/J002eD101_pre.jpg \
+        -t archive/J002eD101B/J002eD101B.csv \
+        -o archive/J002eD101B/J002eD101B.jpg \
+        -m archive/J002eD101B/J002eD101B_marked.jpg
+
+```
+
+> [!NOTE]
+> JGL: Reasonable point-to-cut coverages.
+
+
+
+
+
+
 ## 23-10-2025
 
 ### MSEB0054 
