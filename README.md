@@ -1203,6 +1203,24 @@ cd C_HG
 arch3d macrosample -m C_HG.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
+### G_MG
+
+```{sh}
+screen -S G_MG
+conda activate arch3d
+cd G_MG
+arch3d macrosample -m G_MG.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
+### G_MT
+
+```{sh}
+screen -S G_MT
+conda activate arch3d
+cd G_MT
+arch3d macrosample -m G_MT.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
 ## 2025-09-11
 
 ### MSEB0010
