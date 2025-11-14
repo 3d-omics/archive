@@ -30,6 +30,73 @@ cd J_HT
 arch3d macrosample -m J_HT.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
+
+
+## 14-11-2025
+
+### MSEB0027
+
+#### G081bI105B, G082bI105B
+
+```{sh}
+
+lmdmap -n G081bI105B \
+        -i archive/G081bI105_post.jpg \
+        -t archive/G081bI105B/G081bI105B.csv \
+        -o archive/G081bI105B/G081bI105B.jpg \
+        -m archive/G081bI105B/G081bI105B_marked.jpg
+
+lmdmap -n G081bI105B \
+        -s 800 -x -20 -y 5 -d M302722 \
+        -i archive/G081bI105_post.jpg \
+        -t archive/G081bI105B/G081bI105B.csv \
+        -o archive/G081bI105B/G081bI105B.jpg \
+        -m archive/G081bI105B/G081bI105B_marked.jpg
+
+lmdmap -n G081bI105B \
+        -s 800 -x -20 -y 5 -d M302722 -a \
+        -i archive/G081bI105_pre.jpg \
+        -t archive/G081bI105B/G081bI105B.csv \
+        -o archive/G081bI105B/G081bI105B.jpg \
+        -m archive/G081bI105B/G081bI105B_marked.jpg
+```
+
+> [!WARNING]
+> JGL: Poor point-to-cut coverages, most does not align. Excluded M302722: incorrect coordinate (out of bounce)
+
+#### G082bI105B
+
+```{sh}
+lmdmap -n G082bI105B \
+        -i archive/G082bI105_post.jpg \
+        -t archive/G082bI105B/G082bI105B.csv \
+        -o archive/G082bI105B/G082bI105B.jpg \
+        -m archive/G082bI105B/G082bI105B_marked.jpg
+
+lmdmap -n G082bI105B \
+        -s 1000 -x -22 -w 10 -y -32 -l -4 -d M302770\
+        -i archive/G082bI105_post.jpg \
+        -t archive/G082bI105B/G082bI105B.csv \
+        -o archive/G082bI105B/G082bI105B.jpg \
+        -m archive/G082bI105B/G082bI105B_marked.jpg
+
+lmdmap -n G082bI105B \
+        -s 1000 -x -22 -w 10 -y -32 -l -4 -d M302770 -a \
+        -i archive/G082bI105_pre.jpg \
+        -t archive/G082bI105B/G082bI105B.csv \
+        -o archive/G082bI105B/G082bI105B.jpg \
+        -m archive/G082bI105B/G082bI105B_marked.jpg
+
+```
+
+> [!WARNING]
+> JGL: Poor point-to-cut coverages given resolution. Excluded M302770: incorrect coordinate (out of bounce)
+
+
+
+
+
+
 ## 29-10-2025
 
 ### MSEB0044 + MSEB0045
