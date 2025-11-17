@@ -4,6 +4,16 @@ Repository logging archiving of 3D'omics data.
 
 ## 17-11-2025
 
+### F_MG
+
+```{sh}
+screen -S F_MG
+conda activate arch3d
+cd F_MG
+arch3d macrosample -m F_MG.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
+
 ### K_MG
 
 ```{sh}
