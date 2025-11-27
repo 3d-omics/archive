@@ -1,7 +1,7 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
-## 27-11-2025 (scheduled)
+## 27-11-2025
 
 ### M_MG
 
