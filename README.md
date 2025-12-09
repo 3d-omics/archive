@@ -1,6 +1,26 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 09-12-2025
+
+### MSEB0032
+
+```{sh}
+screen -S MSEB0032
+conda activate arch3d
+cd MSEB0032
+arch3d microsample -m MSEB0032.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
+### MSEB0033
+
+```{sh}
+screen -S MSEB0033
+conda activate arch3d
+cd MSEB0033
+arch3d microsample -m MSEB0032.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
 ## 27-11-2025
 
 ### M_MG
