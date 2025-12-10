@@ -1,24 +1,44 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
-## 09-12-2025
+## 10-12-2025
 
-### MSEB0032
+### MSEB0016_MSEB0023 (planned)
 
 ```{sh}
-screen -S MSEB0032
+screen -S MSEB0016_MSEB0023
 conda activate arch3d
-cd MSEB0032
-arch3d microsample -m MSEB0032.csv -d input -o output -u 'Webin-69627' -p '{password}'
+cd MSEB0016_MSEB0023
+arch3d microsample -m MSEB0016_MSEB0023.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
-### MSEB0033
+### MSEB0024_MSEB0031 (planned)
 
 ```{sh}
-screen -S MSEB0033
+screen -S MSEB0024_MSEB0031
 conda activate arch3d
-cd MSEB0033
-arch3d microsample -m MSEB0032.csv -d input -o output -u 'Webin-69627' -p '{password}'
+cd MSEB0024_MSEB0031
+arch3d microsample -m MSEB0024_MSEB0031.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
+### MSEB0034_MSEB0041
+
+```{sh}
+screen -S MSEB0034_MSEB0041
+conda activate arch3d
+cd MSEB0034_MSEB0041
+arch3d microsample -m MSEB0034_MSEB0041.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
+## 09-12-2025
+
+### MSEB0032_MSEB0033
+
+```{sh}
+screen -S MSEB0032_33
+conda activate arch3d
+cd MSEB0032_33
+arch3d microsample -m MSEB0032_33.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
 ## 27-11-2025
