@@ -1,9 +1,74 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 19-12-2025
+
+### MSEB0060_61 (ongoing)
+
+```{sh}
+screen -S MSEB0060_61
+conda activate arch3d
+cd MSEB0060_61
+arch3d microsample -m MSEB0060_61.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+
+### MSEB0062_67 (ongoing)
+
+```{sh}
+screen -S MSEB0062_67
+conda activate arch3d
+cd MSEB0062_67
+arch3d microsample -m MSEB0062_67.csv -d input -o output -u 'Webin-69627' -p '{password}'
+```
+## 18-12-2025
+
+### MSEB0060 + MSEB0061
+
+#### G121eI114B
+
+lmdmap -n G081bI105B \
+        -i archive/G081bI105_post.jpg \
+        -t archive/G081bI105B/G081bI105B.csv \
+        -o archive/G081bI105B/G081bI105B.jpg \
+        -m archive/G081bI105B/G081bI105B_marked.jpg
+
+lmdmap -n G081bI105B \
+        -s 800 -x -20 -y 5 -d M302722 \
+        -i archive/G081bI105_post.jpg \
+        -t archive/G081bI105B/G081bI105B.csv \
+        -o archive/G081bI105B/G081bI105B.jpg \
+        -m archive/G081bI105B/G081bI105B_marked.jpg
+
+lmdmap -n G081bI105B \
+        -s 800 -x -20 -y 5 -d M302722 -a \
+        -i archive/G081bI105_pre.jpg \
+        -t archive/G081bI105B/G081bI105B.csv \
+        -o archive/G081bI105B/G081bI105B.jpg \
+        -m archive/G081bI105B/G081bI105B_marked.jpg
+
+#### G103bI309A
+
+### MSEB0062 + MSEB0063
+
+#### F066dA101B
+
+#### F043dA101B
+
+### MSEB0064 + MSEB0065
+
+#### F068dA101A
+
+#### F016dA101B
+
+### MSEB0066 + MSEB0067
+
+#### F045dA101A
+
+#### F017dA101B
+
 ## 16-12-2025
 
-### MSEB0054_55 (ongoing)
+### MSEB0054_55
 
 ```{sh}
 screen -S MSEB0054_55
@@ -12,22 +77,13 @@ cd MSEB0054_55
 arch3d microsample -m MSEB0054_55.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
-### MSEB0056_59 (ongoing)
+### MSEB0056_59
 
 ```{sh}
 screen -S MSEB0056_59
 conda activate arch3d
 cd MSEB0056_59
 arch3d microsample -m MSEB0056_59.csv -d input -o output -u 'Webin-69627' -p '{password}'
-```
-
-### MSEB0060_67 (ongoing)
-
-```{sh}
-screen -S MSEB0060_67
-conda activate arch3d
-cd MSEB0060_67
-arch3d microsample -m MSEB0060_67.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
 ## 15-12-2025
