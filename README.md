@@ -26,25 +26,28 @@ arch3d microsample -m MSEB0062_67.csv -d input -o output -u 'Webin-69627' -p '{p
 
 #### G121eI114B
 
-lmdmap -n G081bI105B \
-        -i archive/G081bI105_post.jpg \
-        -t archive/G081bI105B/G081bI105B.csv \
-        -o archive/G081bI105B/G081bI105B.jpg \
-        -m archive/G081bI105B/G081bI105B_marked.jpg
+```{sh}
+mkdir G121eI114B
+lmdmap -n G121eI114B \
+        -i 251117G121eI114_post.jpg \
+        -t G121eI114B/G121eI114B.csv \
+        -o G121eI114B/G121eI114B.jpg \
+        -m G121eI114B/G121eI114B_marked.jpg
 
-lmdmap -n G081bI105B \
-        -s 800 -x -20 -y 5 -d M302722 \
-        -i archive/G081bI105_post.jpg \
-        -t archive/G081bI105B/G081bI105B.csv \
-        -o archive/G081bI105B/G081bI105B.jpg \
-        -m archive/G081bI105B/G081bI105B_marked.jpg
+lmdmap -n G121eI114B \
+        -x -90 -y 5 \
+        -i 251117G121eI114_post.jpg \
+        -t G121eI114B/G121eI114B.csv \
+        -o G121eI114B/G121eI114B.jpg \
+        -m G121eI114B/G121eI114B_marked.jpg
 
-lmdmap -n G081bI105B \
-        -s 800 -x -20 -y 5 -d M302722 -a \
-        -i archive/G081bI105_pre.jpg \
-        -t archive/G081bI105B/G081bI105B.csv \
-        -o archive/G081bI105B/G081bI105B.jpg \
-        -m archive/G081bI105B/G081bI105B_marked.jpg
+lmdmap -n G121eI114B \
+        -x -90 -y 5 -a \
+        -i 251117G121eI114_pre.jpg \
+        -t G121eI114B/G121eI114B.csv \
+        -o G121eI114B/G121eI114B.jpg \
+        -m G121eI114B/G121eI114B_marked.jpg
+```
 
 #### G103bI309A
 
