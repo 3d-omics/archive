@@ -110,11 +110,48 @@ lmdmap -n F043dA101B \
         -t F043dA101B/F043dA101B.csv \
         -o F043dA101B/F043dA101B.jpg \
         -m F043dA101B/F043dA101B_marked.jpg
+
+lmdmap -n F043dA101B \
+        -s 1200 -x -120 \
+        -i 251118F043dA101_post.jpg \
+        -t F043dA101B/F043dA101B.csv \
+        -o F043dA101B/F043dA101B.jpg \
+        -m F043dA101B/F043dA101B_marked.jpg
+
+lmdmap -n F043dA101B \
+        -s 1200 -x -120 -a \
+        -i 251118F043dA101_pre.jpg \
+        -t F043dA101B/F043dA101B.csv \
+        -o F043dA101B/F043dA101B.jpg \
+        -m F043dA101B/F043dA101B_marked.jpg
 ```
 
 ### MSEB0064 + MSEB0065
 
 #### F068dA101A
+
+```{sh}
+mkdir F068dA101A
+lmdmap -n F068dA101A \
+        -i 251119F068dA101_post.jpg \
+        -t F068dA101A/F068dA101A.csv \
+        -o F068dA101A/F068dA101A.jpg \
+        -m F068dA101A/F068dA101A_marked.jpg
+
+lmdmap -n F068dA101A \
+        -s 1500 -w 5 -x -90 \
+        -i 251119F068dA101_post.jpg \
+        -t F068dA101A/F068dA101A.csv \
+        -o F068dA101A/F068dA101A.jpg \
+        -m F068dA101A/F068dA101A_marked.jpg
+
+lmdmap -n F068dA101A \
+        -s 1500 -w 5 -x -90 -a \
+        -i 251119F068dA101_pre.jpg \
+        -t F068dA101A/F068dA101A.csv \
+        -o F068dA101A/F068dA101A.jpg \
+        -m F068dA101A/F068dA101A_marked.jpg
+```
 
 #### F016dA101B
 
