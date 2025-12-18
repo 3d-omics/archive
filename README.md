@@ -155,11 +155,80 @@ lmdmap -n F068dA101A \
 
 #### F016dA101B
 
+```{sh}
+mkdir F016dA101B
+lmdmap -n F016dA101B \
+        -i 251119F016dA101_post.jpg \
+        -t F016dA101B/F016dA101B.csv \
+        -o F016dA101B/F016dA101B.jpg \
+        -m F016dA101B/F016dA101B_marked.jpg
+
+lmdmap -n F016dA101B \
+        -w 5 -x -90 \
+        -i 251119F016dA101_post.jpg \
+        -t F016dA101B/F016dA101B.csv \
+        -o F016dA101B/F016dA101B.jpg \
+        -m F016dA101B/F016dA101B_marked.jpg
+
+lmdmap -n F016dA101B \
+        -w 5 -x -90 -a \
+        -i 251119F016dA101_pre.jpg \
+        -t F016dA101B/F016dA101B.csv \
+        -o F016dA101B/F016dA101B.jpg \
+        -m F016dA101B/F016dA101B_marked.jpg
+```
+
 ### MSEB0066 + MSEB0067
 
 #### F045dA101A
 
+```{sh}
+mkdir F045dA101A
+lmdmap -n F045dA101A \
+        -i 251120F045dA101_post.jpg \
+        -t F045dA101A/F045dA101A.csv \
+        -o F045dA101A/F045dA101A.jpg \
+        -m F045dA101A/F045dA101A_marked.jpg
+
+lmdmap -n F045dA101A \
+        -s 1500 -w 5 -x -90 \
+        -i 251120F045dA101_post.jpg \
+        -t F045dA101A/F045dA101A.csv \
+        -o F045dA101A/F045dA101A.jpg \
+        -m F045dA101A/F045dA101A_marked.jpg
+
+lmdmap -n F045dA101A \
+        -s 1500 -w 5 -x -90 -a \
+        -i 251120F045dA101_pre.jpg \
+        -t F045dA101A/F045dA101A.csv \
+        -o F045dA101A/F045dA101A.jpg \
+        -m F045dA101A/F045dA101A_marked.jpg
+```
+
 #### F017dA101B
+
+```{sh}
+mkdir F017dA101B
+lmdmap -n F017dA101B \
+        -i 251120F017dA101_post.jpg \
+        -t F017dA101B/F017dA101B.csv \
+        -o F017dA101B/F017dA101B.jpg \
+        -m F017dA101B/F017dA101B_marked.jpg
+
+lmdmap -n F017dA101B \
+        -s 1400 -w 6 -x -90 \
+        -i 251120F017dA101_post.jpg \
+        -t F017dA101B/F017dA101B.csv \
+        -o F017dA101B/F017dA101B.jpg \
+        -m F017dA101B/F017dA101B_marked.jpg
+
+lmdmap -n F017dA101B \
+        -s 1400 -w 6 -x -90 -a \
+        -i 251120F017dA101_pre.jpg \
+        -t F017dA101B/F017dA101B.csv \
+        -o F017dA101B/F017dA101B.jpg \
+        -m F017dA101B/F017dA101B_marked.jpg
+```
 
 ## 16-12-2025
 
