@@ -3,7 +3,7 @@ Repository logging archiving of 3D'omics data.
 
 ## 19-12-2025
 
-### MSEB0060_61 (ongoing)
+### MSEB0060_61
 
 ```{sh}
 screen -S MSEB0060_61
@@ -12,7 +12,7 @@ cd MSEB0060_61
 arch3d microsample -m MSEB0060_61.csv -d input -o output -u 'Webin-69627' -p '{password}'
 ```
 
-### MSEB0062_67 (ongoing)
+### MSEB0062_67
 
 ```{sh}
 screen -S MSEB0062_67
