@@ -1,6 +1,33 @@
 # 3D'omics archive
 Repository logging archiving of 3D'omics data.
 
+## 22-01-2026
+
+#### G103bI309B
+
+```{sh}
+mkdir G103bI309B
+lmdmap -n G103bI309B \
+        -i 251117G103bI309_post.jpg \
+        -t G103bI309B/G103bI309B.csv \
+        -o G103bI309B/G103bI309B.jpg \
+        -m G103bI309B/G103bI309B_marked.jpg
+
+lmdmap -n G103bI309B \
+        -x -95 -y 5 -w 4 \
+        -i 251117G103bI309_post.jpg \
+        -t G103bI309B/G103bI309B.csv \
+        -o G103bI309B/G103bI309B.jpg \
+        -m G103bI309B/G103bI309B_marked.jpg
+
+lmdmap -n G103bI309B \
+        -x -95 -y 5 -w 4 -a \
+        -i 251117G103bI309_pre.jpg \
+        -t G103bI309B/G103bI309B.csv \
+        -o G103bI309B/G103bI309B.jpg \
+        -m G103bI309B/G103bI309B_marked.jpg
+```
+
 ## 19-12-2025
 
 ### MSEB0060_61
